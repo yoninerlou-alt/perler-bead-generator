@@ -152,7 +152,8 @@ export default function Home() {
   const handleExportPNG = useCallback(async () => {
     try {
       const blob = await generateCanvasExport(grid, exportSettings, currentBrand, 20);
-      downloadPNG(blob, 'perler-pattern.png');
+      const brandName = currentBrand === 'perler' ? 'perler' : currentBrand.charAt(0).toUpperCase() + currentBrand.slice(1);
+      downloadPNG(blob, `${brandName}-pattern.png`);
     } catch (error) {
       console.error('导出失败:', error);
       alert('导出失败，请重试');
@@ -173,8 +174,9 @@ export default function Home() {
     if (!shoppingList) return;
 
     const csv = exportShoppingListToCSV(shoppingList);
-    downloadCSV(csv, 'shopping-list.csv');
-  }, [shoppingList]);
+    const brandName = currentBrand.charAt(0).toUpperCase() + currentBrand.slice(1);
+    downloadCSV(csv, `shopping-list-${brandName}.csv`);
+  }, [shoppingList, currentBrand]);
 
   // 导出JSON
   const handleExportJSON = useCallback(() => {

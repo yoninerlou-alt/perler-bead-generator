@@ -9,6 +9,7 @@ import {
   erasePixel,
   addToHistory,
   undo,
+  redo,
   isGridModified,
   clearGrid,
   cloneGrid
@@ -18,6 +19,7 @@ import { floodFillPaint } from '@/lib/utils/floodFillUtils';
 export function useEditorState() {
   const [grid, setGrid] = useState<MappedPixel[][]>([]);
   const [history, setHistory] = useState<EditHistory[]>([]);
+  const [future, setFuture] = useState<EditHistory[]>([]);
   const [currentTool, setCurrentTool] = useState<EditTool>('brush');
   const [selectedColor, setSelectedColor] = useState<BeadColor | null>(null);
   const [isModified, setIsModified] = useState(false);
@@ -26,6 +28,7 @@ export function useEditorState() {
 
   const originalGridRef = useRef<MappedPixel[][]>([]);
   const historyRef = useRef<EditHistory[]>([]);
+  const futureRef = useRef<EditHistory[]>([]);
 
   /**
    * 初始化网格
@@ -33,9 +36,14 @@ export function useEditorState() {
   const initializeGrid = useCallback((rows: number, cols: number) => {
     const newGrid = clearGrid(rows, cols);
     setGrid(newGrid);
+    setHistory([]);
+    setFuture([]);
+    historyRef.current = [];
+    futureRef.current = [];
     originalGridRef.current = newGrid;
     setIsModified(false);
     setCanUndo(false);
+    setCanRedo(false);
   }, []);
 
   /**
@@ -43,10 +51,15 @@ export function useEditorState() {
    */
   const updateGrid = useCallback((newGrid: MappedPixel[][], action: string = '') => {
     setGrid(newGrid);
+    // 清空 future 栈，因为新操作使重做历史失效
+    setFuture([]);
+    futureRef.current = [];
+
     setHistory(prevHistory => {
       const updated = addToHistory(prevHistory, newGrid, action);
       historyRef.current = updated;
       setCanUndo(updated.length > 0);
+      setCanRedo(false);
       return updated;
     });
     setIsModified(isGridModified(newGrid, originalGridRef.current));
@@ -90,23 +103,54 @@ export function useEditorState() {
    * 撤销操作
    */
   const handleUndo = useCallback(() => {
+    // 将当前状态添加到 future 栈
+    const currentState: EditHistory = {
+      grid: grid.map(row => row.map(p => ({ ...p }))),
+      timestamp: Date.now(),
+      action: '撤销前的状态'
+    };
+
     const result = undo(historyRef.current, grid);
     if (result) {
       setGrid(result.grid);
       setHistory(result.history);
+      historyRef.current = result.history;
+
+      // 更新 future 栈
+      const newFuture = [currentState, ...futureRef.current];
+      setFuture(newFuture);
+      futureRef.current = newFuture;
+
       setCanUndo(result.history.length > 0);
-      setCanRedo(false);
+      setCanRedo(newFuture.length > 0);
       setIsModified(isGridModified(result.grid, originalGridRef.current));
     }
-  }, [grid, historyRef.current]);
+  }, [grid]);
 
   /**
    * 重做操作
    */
   const handleRedo = useCallback(() => {
-    // 这里需要维护一个future栈，简化起见先不实现
-    console.log('Redo functionality not implemented yet');
-  }, []);
+    // 将当前状态添加到 history 栈
+    const currentState: EditHistory = {
+      grid: grid.map(row => row.map(p => ({ ...p }))),
+      timestamp: Date.now(),
+      action: '重做前的状态'
+    };
+
+    const result = redo(historyRef.current, futureRef.current, grid);
+    if (result) {
+      setGrid(result.grid);
+      setHistory(result.history);
+      setFuture(result.future);
+      historyRef.current = result.history;
+      futureRef.current = result.future;
+
+      setCanUndo(result.history.length > 0);
+      setCanRedo(result.future.length > 0);
+      setIsModified(isGridModified(result.grid, originalGridRef.current));
+    }
+  }, [grid]);
 
   /**
    * 清空画布
@@ -129,6 +173,7 @@ export function useEditorState() {
     // 状态
     grid,
     history,
+    future,
     currentTool,
     selectedColor,
     isModified,

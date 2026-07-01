@@ -6,9 +6,9 @@ import type { MappedPixel, ShoppingList, ExportSettings, BrandKey } from '@/type
 import { getGridStats } from './pixelEditingUtils';
 
 /**
- * 高精度导出 - 使用2倍分辨率
+ * 高精度导出 - 使用3倍分辨率
  */
-const EXPORT_SCALE = 2;
+const EXPORT_SCALE = 3;
 
 /**
  * 格式化色号显示
@@ -32,8 +32,25 @@ function formatColorCode(code: string, brandKey: BrandKey): string {
  * 获取色号字体大小（基于高分辨率）
  */
 function getCodeFontSize(brandKey: BrandKey, scale: number = EXPORT_SCALE): number {
-  const baseSize = brandKey === 'perler' ? 6 : 9;
+  const baseSize = brandKey === 'perler' ? 4 : 7;
   return baseSize * scale;
+}
+
+/**
+ * 计算颜色的亮度
+ */
+function getBrightness(hex: string): number {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return (r * 299 + g * 587 + b * 114) / 1000;
+}
+
+/**
+ * 根据亮度选择文字颜色
+ */
+function getTextColor(brightness: number): string {
+  return brightness > 128 ? 'rgba(0, 0, 0, 0.8)' : 'rgba(255, 255, 255, 0.95)';
 }
 
 /**
@@ -94,11 +111,19 @@ export function generateCanvasExport(
 
     // 高精度缩放
     const cellSize = baseCellSize * EXPORT_SCALE;
-    const padding = 20 * EXPORT_SCALE;
-    const gridSize = settings.showGrid ? EXPORT_SCALE : 0;
-    const paletteHeight = Math.max(100 * EXPORT_SCALE, (uniqueColors.length + 1) * 30 * EXPORT_SCALE);
+    const padding = 15 * EXPORT_SCALE;
+    const gridSize = settings.showGrid ? 1 * EXPORT_SCALE : 0;
 
-    // 计算画布尺寸
+    // 计算调色板尺寸（紧凑布局）
+    const palettePadding = 10 * EXPORT_SCALE;
+    const colorBoxSize = 18 * EXPORT_SCALE;
+    const textGap = 5 * EXPORT_SCALE;
+    const rowGap = 8 * EXPORT_SCALE;
+    const itemsPerRow = Math.floor((cols * cellSize) / (colorBoxSize + textGap + 35 * EXPORT_SCALE));
+    const paletteRows = Math.ceil(uniqueColors.length / itemsPerRow);
+    const paletteHeight = palettePadding + 20 * EXPORT_SCALE + paletteRows * (colorBoxSize + rowGap);
+
+    // 计算画布尺寸（紧凑布局，减少底部空白）
     const gridWidth = cols * cellSize;
     const gridHeight = rows * cellSize;
     const canvasWidth = gridWidth + padding * 2;
@@ -118,7 +143,7 @@ export function generateCanvasExport(
         const x = padding + col * cellSize;
         const y = padding + row * cellSize;
 
-        // 绘制颜色（修复颜色缺损：使用rgb值作为fallback）
+        // 绘制颜色
         const colorHex = pixel?.matchedColor?.hex || pixel?.rgb
           ? `rgb(${pixel.rgb.r}, ${pixel.rgb.g}, ${pixel.rgb.b})`
           : '#FFFFFF';
@@ -128,7 +153,7 @@ export function generateCanvasExport(
 
         // 绘制网格
         if (settings.showGrid) {
-          ctx.strokeStyle = 'rgba(0, 0, 0, 0.15)';
+          ctx.strokeStyle = 'rgba(0, 0, 0, 0.12)';
           ctx.lineWidth = gridSize;
           ctx.strokeRect(x, y, cellSize, cellSize);
         }
@@ -136,109 +161,89 @@ export function generateCanvasExport(
         // 绘制坐标
         if (settings.showCoordinates) {
           ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
-          ctx.font = `${10 * EXPORT_SCALE}px sans-serif`;
-          ctx.fillText(`${col},${row}`, x + 4 * EXPORT_SCALE, y + 14 * EXPORT_SCALE);
+          ctx.font = `${8 * EXPORT_SCALE}px sans-serif`;
+          ctx.fillText(`${col},${row}`, x + 3 * EXPORT_SCALE, y + 10 * EXPORT_SCALE);
         }
 
-        // 绘制色号
-        if (settings.showColorCodes && pixel?.matchedColor) {
-          ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
-          ctx.strokeStyle = 'rgba(0, 0, 0, 0.5)';
-          ctx.lineWidth = 2 * EXPORT_SCALE;
+        // 绘制色号（简化显示）
+        if (settings.showColorCodes && pixel?.matchedColor && cellSize >= 15 * EXPORT_SCALE) {
           const codeText = formatColorCode(pixel.matchedColor.code, brandKey);
           const fontSize = getCodeFontSize(brandKey);
           ctx.font = `${fontSize}px sans-serif`;
           const textWidth = ctx.measureText(codeText).width;
-          const paddingX = 3 * EXPORT_SCALE;
-          const paddingY = 2 * EXPORT_SCALE;
+          const textX = x + (cellSize - textWidth) / 2;
+          const textY = y + cellSize - 4 * EXPORT_SCALE;
 
-          // 绘制文字背景
-          const textX = x + cellSize / 2;
-          const textY = y + cellSize - 6 * EXPORT_SCALE;
+          // 半透明白色背景
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.75)';
+          const bgPadding = 2 * EXPORT_SCALE;
           ctx.fillRect(
-            textX - textWidth / 2 - paddingX,
-            textY - fontSize - paddingY,
-            textWidth + paddingX * 2,
-            fontSize + paddingY * 2
-          );
-          ctx.strokeRect(
-            textX - textWidth / 2 - paddingX,
-            textY - fontSize - paddingY,
-            textWidth + paddingX * 2,
-            fontSize + paddingY * 2
+            textX - bgPadding,
+            textY - fontSize - bgPadding,
+            textWidth + bgPadding * 2,
+            fontSize + bgPadding * 2
           );
 
-          // 绘制文字
-          ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
-          ctx.fillText(codeText, textX - textWidth / 2, textY);
+          // 文字颜色根据亮度自动选择
+          const brightness = getBrightness(pixel.matchedColor.hex);
+          ctx.fillStyle = getTextColor(brightness);
+          ctx.fillText(codeText, textX, textY);
         }
       }
     }
 
     // 绘制底部色块调色板
-    const paletteY = gridHeight + padding * 2 + 20 * EXPORT_SCALE;
+    const paletteY = gridHeight + padding * 2 + palettePadding;
     const paletteStartX = padding;
     const paletteEndX = canvasWidth - padding;
-    const paletteWidth = paletteEndX - paletteStartX;
 
     // 绘制调色板分隔线
     ctx.beginPath();
-    ctx.moveTo(paletteStartX, paletteY - 10 * EXPORT_SCALE);
-    ctx.lineTo(paletteEndX, paletteY - 10 * EXPORT_SCALE);
-    ctx.strokeStyle = 'rgba(0, 0, 0, 0.3)';
-    ctx.lineWidth = 2 * EXPORT_SCALE;
+    ctx.moveTo(paletteStartX, paletteY - 8 * EXPORT_SCALE);
+    ctx.lineTo(paletteEndX, paletteY - 8 * EXPORT_SCALE);
+    ctx.strokeStyle = 'rgba(0, 0, 0, 0.25)';
+    ctx.lineWidth = 1 * EXPORT_SCALE;
     ctx.stroke();
 
     // 绘制调色板标题
     ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
-    ctx.font = `bold ${14 * EXPORT_SCALE}px sans-serif`;
+    ctx.font = `bold ${12 * EXPORT_SCALE}px sans-serif`;
     ctx.fillText(`色号调色板 (${uniqueColors.length}种)`, paletteStartX, paletteY);
 
-    // 计算调色板布局
-    const colorBoxSize = 24 * EXPORT_SCALE;
-    const colorGap = 8 * EXPORT_SCALE;
-    const textGap = 6 * EXPORT_SCALE;
-    const rowGap = 12 * EXPORT_SCALE;
-    const maxCols = Math.floor((paletteWidth) / (colorBoxSize + textGap + 40 * EXPORT_SCALE));
+    // 绘制色块（紧凑布局，显示数量）
+    const codeFontSize = 9 * EXPORT_SCALE;
+    const countFontSize = 8 * EXPORT_SCALE;
+    ctx.font = `${codeFontSize}px sans-serif`;
 
-    // 绘制色块
     uniqueColors.forEach((color, index) => {
-      const colIndex = index % maxCols;
-      const rowIndex = Math.floor(index / maxCols);
-      const boxX = paletteStartX + colIndex * (colorBoxSize + textGap + 40 * EXPORT_SCALE);
-      const boxY = paletteY + 20 * EXPORT_SCALE + rowIndex * (colorBoxSize + rowGap);
+      const colIndex = index % itemsPerRow;
+      const rowIndex = Math.floor(index / itemsPerRow);
+      const boxX = paletteStartX + colIndex * (colorBoxSize + textGap + 35 * EXPORT_SCALE);
+      const boxY = paletteY + 15 * EXPORT_SCALE + rowIndex * (colorBoxSize + rowGap);
 
       // 绘制色块边框
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
-      ctx.fillRect(boxX - 2 * EXPORT_SCALE, boxY - 2 * EXPORT_SCALE, colorBoxSize + 4 * EXPORT_SCALE, colorBoxSize + 4 * EXPORT_SCALE);
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.08)';
+      ctx.fillRect(boxX - 1 * EXPORT_SCALE, boxY - 1 * EXPORT_SCALE, colorBoxSize + 2 * EXPORT_SCALE, colorBoxSize + 2 * EXPORT_SCALE);
 
       // 绘制色块
       ctx.fillStyle = color.hex;
       ctx.fillRect(boxX, boxY, colorBoxSize, colorBoxSize);
 
       // 绘制色块边框
-      ctx.strokeStyle = 'rgba(0, 0, 0, 0.3)';
-      ctx.lineWidth = 1 * EXPORT_SCALE;
+      ctx.strokeStyle = 'rgba(0, 0, 0, 0.25)';
+      ctx.lineWidth = 0.5 * EXPORT_SCALE;
       ctx.strokeRect(boxX, boxY, colorBoxSize, colorBoxSize);
 
       // 绘制色号
       ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
-      ctx.font = `${11 * EXPORT_SCALE}px sans-serif`;
+      ctx.font = `${codeFontSize}px sans-serif`;
       const displayCode = formatColorCode(color.code, brandKey);
-      ctx.fillText(displayCode, boxX + colorBoxSize + textGap, boxY + colorBoxSize / 2 + 4 * EXPORT_SCALE);
+      ctx.fillText(displayCode, boxX + colorBoxSize + textGap, boxY + colorBoxSize / 2 + 3 * EXPORT_SCALE);
 
-      // 绘制颜色名称（截断）
+      // 绘制数量
       ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
-      ctx.font = `${9 * EXPORT_SCALE}px sans-serif`;
-      const maxNameWidth = 35 * EXPORT_SCALE;
-      let displayName = color.name;
-      if (ctx.measureText(displayName).width > maxNameWidth) {
-        while (ctx.measureText(displayName + '...').width > maxNameWidth && displayName.length > 0) {
-          displayName = displayName.slice(0, -1);
-        }
-        displayName += '...';
-      }
-      ctx.fillText(displayName, boxX + colorBoxSize + textGap, boxY + colorBoxSize / 2 + 18 * EXPORT_SCALE);
+      ctx.font = `${countFontSize}px sans-serif`;
+      ctx.fillText(`×${color.count}`, boxX + colorBoxSize + textGap, boxY + colorBoxSize / 2 + 14 * EXPORT_SCALE);
     });
 
     // 转换为Blob

@@ -88,27 +88,38 @@ export default function Home() {
 
   // 网格点击
   const handlePixelClick = useCallback((row: number, col: number) => {
-    if (!selectedColor) return;
-
     switch (currentTool) {
       case 'brush':
+        // 上色需要先选择颜色
+        if (!selectedColor) {
+          alert('请先从颜色选择器中选择一个颜色');
+          return;
+        }
         handlePaint(row, col, selectedColor);
         break;
       case 'eraser':
+        // 橡皮擦不需要颜色
         handleErase(row, col);
         break;
       case 'fill':
+        // 油漆桶需要先选择颜色
+        if (!selectedColor) {
+          alert('请先从颜色选择器中选择一个颜色');
+          return;
+        }
         handleFill(row, col, selectedColor);
         break;
       case 'picker':
-        // 颜色选择器逻辑
+        // 取色工具：从像素获取颜色
         const pixel = grid[row]?.[col];
-        if (pixel?.color) {
-          handleColorSelect(pixel.color);
+        if (pixel?.matchedColor) {
+          setSelectedColor(pixel.matchedColor);
+          // 切换到上色工具
+          setCurrentTool('brush');
         }
         break;
     }
-  }, [currentTool, selectedColor, grid, handlePaint, handleErase, handleFill, handleColorSelect]);
+  }, [currentTool, selectedColor, grid, handlePaint, handleErase, handleFill, setSelectedColor, setCurrentTool]);
 
   // 像素悬停
   const handlePixelHover = useCallback((row: number, col: number) => {

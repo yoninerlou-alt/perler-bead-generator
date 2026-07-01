@@ -1,0 +1,51 @@
+{
+  "name": "拼豆图纸生成器",
+  "short_name": "拼豆生成器",
+  "description": "将图片转换为拼豆图纸，支持Perler、Hama、Artkal品牌色号匹配",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FFF9F0",
+  "theme_color": "#FF6B9D",
+  "categories": ["productivity", "graphics", "utilities"],
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Perler品牌",
+      "short_name": "Perler",
+      "description": "切换到Perler品牌色号",
+      "url": "/?brand=perler",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Hama品牌",
+      "short_name": "Hama",
+      "description": "切换到Hama品牌色号",
+      "url": "/?brand=hama",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Artkal品牌",
+      "short_name": "Artkal",
+      "description": "切换到Artkal品牌色号",
+      "url": "/?brand=artkal",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}

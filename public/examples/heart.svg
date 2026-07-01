@@ -1,0 +1,7 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#FFFFFF"/>
+  <!-- 心形 -->
+  <path d="M100 170 C 100 170, 30 120, 30 75 C 30 50, 50 35, 70 35 C 85 35, 95 45, 100 55 C 105 45, 115 35, 130 35 C 150 35, 170 50, 170 75 C 170 120, 100 170, 100 170 Z" fill="#FF6B6B" stroke="#E55555" stroke-width="2"/>
+  <!-- 高光 -->
+  <ellipse cx="70" cy="65" rx="12" ry="8" fill="#FF9999" opacity="0.6"/>
+</svg>

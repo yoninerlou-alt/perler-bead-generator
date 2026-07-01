@@ -1,0 +1,10 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#FFFFFF"/>
+  <!-- 星星 -->
+  <polygon points="100,20 122,75 180,75 133,110 150,165 100,132 50,165 67,110 20,75 78,75" fill="#FFE66D" stroke="#FFD93D" stroke-width="2"/>
+  <!-- 眼睛 -->
+  <circle cx="85" cy="95" r="4" fill="#2D3436"/>
+  <circle cx="115" cy="95" r="4" fill="#2D3436"/>
+  <!-- 微笑 -->
+  <path d="M82 110 Q 100 125, 118 110" fill="none" stroke="#2D3436" stroke-width="2" stroke-linecap="round"/>
+</svg>

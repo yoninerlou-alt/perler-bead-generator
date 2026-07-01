@@ -1,0 +1,28 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#FFFFFF"/>
+  <!-- 猫脸 -->
+  <ellipse cx="100" cy="110" rx="60" ry="55" fill="#A1887F"/>
+  <!-- 耳朵 -->
+  <polygon points="55,65 45,30 75,55" fill="#A1887F"/>
+  <polygon points="145,65 155,30 125,55" fill="#A1887F"/>
+  <!-- 内耳 -->
+  <polygon points="58,58 53,40 68,55" fill="#FF8FB1"/>
+  <polygon points="142,58 147,40 132,55" fill="#FF8FB1"/>
+  <!-- 眼睛 -->
+  <ellipse cx="80" cy="100" rx="8" ry="12" fill="#4ECDC4"/>
+  <ellipse cx="120" cy="100" rx="8" ry="12" fill="#4ECDC4"/>
+  <circle cx="80" cy="102" r="4" fill="#2D3436"/>
+  <circle cx="120" cy="102" r="4" fill="#2D3436"/>
+  <circle cx="82" cy="99" r="2" fill="#FFFFFF"/>
+  <circle cx="122" cy="99" r="2" fill="#FFFFFF"/>
+  <!-- 鼻子 -->
+  <path d="M95 118 L 105 118 L 100 125 Z" fill="#FF6B9D"/>
+  <!-- 嘴巴 -->
+  <path d="M100 125 Q 95 132, 90 130" fill="none" stroke="#2D3436" stroke-width="2" stroke-linecap="round"/>
+  <path d="M100 125 Q 105 132, 110 130" fill="none" stroke="#2D3436" stroke-width="2" stroke-linecap="round"/>
+  <!-- 胡须 -->
+  <line x1="65" y1="118" x2="45" y2="115" stroke="#2D3436" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="65" y1="125" x2="45" y2="128" stroke="#2D3436" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="135" y1="118" x2="155" y2="115" stroke="#2D3436" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="135" y1="125" x2="155" y2="128" stroke="#2D3436" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

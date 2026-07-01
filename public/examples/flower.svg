@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#FFFFFF"/>
+  <!-- 花瓣 -->
+  <circle cx="100" cy="55" r="28" fill="#FF6B9D"/>
+  <circle cx="145" cy="100" r="28" fill="#FF6B9D"/>
+  <circle cx="100" cy="145" r="28" fill="#FF6B9D"/>
+  <circle cx="55" cy="100" r="28" fill="#FF6B9D"/>
+  <!-- 对角花瓣 -->
+  <circle cx="132" cy="68" r="24" fill="#FF8FB1"/>
+  <circle cx="132" cy="132" r="24" fill="#FF8FB1"/>
+  <circle cx="68" cy="132" r="24" fill="#FF8FB1"/>
+  <circle cx="68" cy="68" r="24" fill="#FF8FB1"/>
+  <!-- 花心 -->
+  <circle cx="100" cy="100" r="30" fill="#FFE66D" stroke="#FFD93D" stroke-width="2"/>
+  <!-- 花心点缀 -->
+  <circle cx="92" cy="95" r="3" fill="#FFA500"/>
+  <circle cx="108" cy="95" r="3" fill="#FFA500"/>
+  <circle cx="92" cy="107" r="3" fill="#FFA500"/>
+  <circle cx="108" cy="107" r="3" fill="#FFA500"/>
+</svg>

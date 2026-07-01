@@ -1,0 +1,15 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#FFFFFF"/>
+  <!-- 蘑菇柄 -->
+  <rect x="82" y="110" width="36" height="60" rx="8" fill="#FFF9F0" stroke="#E8DCC8" stroke-width="2"/>
+  <!-- 蘑菇帽 -->
+  <ellipse cx="100" cy="105" rx="70" ry="45" fill="#FF6B6B"/>
+  <!-- 蘑菇帽底部 -->
+  <ellipse cx="100" cy="105" rx="70" ry="12" fill="#E55555"/>
+  <!-- 白色斑点 -->
+  <circle cx="75" cy="85" r="10" fill="#FFFFFF"/>
+  <circle cx="115" cy="80" r="12" fill="#FFFFFF"/>
+  <circle cx="140" cy="100" r="8" fill="#FFFFFF"/>
+  <circle cx="60" cy="100" r="7" fill="#FFFFFF"/>
+  <circle cx="100" cy="70" r="9" fill="#FFFFFF"/>
+</svg>

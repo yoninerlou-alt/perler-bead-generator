@@ -1,0 +1,49 @@
+{
+  "examples": [
+    {
+      "id": "heart",
+      "name": "爱心",
+      "emoji": "❤️",
+      "path": "/examples/heart.svg",
+      "description": "经典爱心图案，适合初学者",
+      "difficulty": "简单",
+      "recommendedColors": ["红色系"]
+    },
+    {
+      "id": "star",
+      "name": "笑脸星星",
+      "emoji": "⭐",
+      "path": "/examples/star.svg",
+      "description": "可爱的笑脸星星",
+      "difficulty": "简单",
+      "recommendedColors": ["黄色系"]
+    },
+    {
+      "id": "flower",
+      "name": "小花",
+      "emoji": "🌸",
+      "path": "/examples/flower.svg",
+      "description": "粉色小花，花瓣清晰",
+      "difficulty": "简单",
+      "recommendedColors": ["粉色系", "黄色系"]
+    },
+    {
+      "id": "cat",
+      "name": "小猫",
+      "emoji": "🐱",
+      "path": "/examples/cat.svg",
+      "description": "可爱的小猫脸",
+      "difficulty": "中等",
+      "recommendedColors": ["棕色系", "青色系", "粉色系"]
+    },
+    {
+      "id": "mushroom",
+      "name": "蘑菇",
+      "emoji": "🍄",
+      "path": "/examples/mushroom.svg",
+      "description": "红色斑点蘑菇",
+      "difficulty": "中等",
+      "recommendedColors": ["红色系", "白色系"]
+    }
+  ]
+}

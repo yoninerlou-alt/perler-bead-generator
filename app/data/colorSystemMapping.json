@@ -1,0 +1,7909 @@
+{
+  "perler": {
+    "brandId": "perler",
+    "brandName": "Perler",
+    "displayName": "Perler Beads",
+    "totalColors": 103,
+    "beadSize": 5,
+    "colorData": [
+      {
+        "id": "perler-80-15179",
+        "code": "80-15179",
+        "name": "Evergreen",
+        "hex": "#305545",
+        "rgb": {
+          "r": 48,
+          "g": 85,
+          "b": 69
+        },
+        "lab": {
+          "l": 33.04,
+          "a": -17.49,
+          "b": 5.22
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15181",
+        "code": "80-15181",
+        "name": "Light Grey",
+        "hex": "#B3BAB8",
+        "rgb": {
+          "r": 179,
+          "g": 186,
+          "b": 184
+        },
+        "lab": {
+          "l": 74.93,
+          "a": -2.81,
+          "b": 0.17
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15182",
+        "code": "80-15182",
+        "name": "Lavender",
+        "hex": "#AF9FCE",
+        "rgb": {
+          "r": 175,
+          "g": 159,
+          "b": 206
+        },
+        "lab": {
+          "l": 68.29,
+          "a": 15.13,
+          "b": -21.87
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15199",
+        "code": "80-15199",
+        "name": "Shamrock",
+        "hex": "#008F53",
+        "rgb": {
+          "r": 0,
+          "g": 143,
+          "b": 83
+        },
+        "lab": {
+          "l": 52.14,
+          "a": -47.25,
+          "b": 22.96
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15200",
+        "code": "80-15200",
+        "name": "Cobalt",
+        "hex": "#0065B1",
+        "rgb": {
+          "r": 0,
+          "g": 101,
+          "b": 177
+        },
+        "lab": {
+          "l": 41.97,
+          "a": 4.99,
+          "b": -47.16
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15201",
+        "code": "80-15201",
+        "name": "Midnight",
+        "hex": "#2F3C55",
+        "rgb": {
+          "r": 47,
+          "g": 60,
+          "b": 85
+        },
+        "lab": {
+          "l": 25.23,
+          "a": 2.17,
+          "b": -16.75
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15202",
+        "code": "80-15202",
+        "name": "Robin's Egg",
+        "hex": "#A9CDD5",
+        "rgb": {
+          "r": 169,
+          "g": 205,
+          "b": 213
+        },
+        "lab": {
+          "l": 80.12,
+          "a": -10.16,
+          "b": -7.93
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15203",
+        "code": "80-15203",
+        "name": "Flamingo",
+        "hex": "#F2AFB7",
+        "rgb": {
+          "r": 242,
+          "g": 175,
+          "b": 183
+        },
+        "lab": {
+          "l": 77.85,
+          "a": 25.57,
+          "b": 5.66
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15204",
+        "code": "80-15204",
+        "name": "Salmon",
+        "hex": "#E1747A",
+        "rgb": {
+          "r": 225,
+          "g": 116,
+          "b": 122
+        },
+        "lab": {
+          "l": 61.57,
+          "a": 42.84,
+          "b": 16.33
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15205",
+        "code": "80-15205",
+        "name": "Fawn",
+        "hex": "#C9A385",
+        "rgb": {
+          "r": 201,
+          "g": 163,
+          "b": 133
+        },
+        "lab": {
+          "l": 69.69,
+          "a": 9.73,
+          "b": 20.88
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15206",
+        "code": "80-15206",
+        "name": "Pewter",
+        "hex": "#94A19D",
+        "rgb": {
+          "r": 148,
+          "g": 161,
+          "b": 157
+        },
+        "lab": {
+          "l": 65.14,
+          "a": -5.4,
+          "b": 0.5
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15207",
+        "code": "80-15207",
+        "name": "Charcoal",
+        "hex": "#4F595A",
+        "rgb": {
+          "r": 79,
+          "g": 89,
+          "b": 90
+        },
+        "lab": {
+          "l": 37.01,
+          "a": -3.67,
+          "b": -1.91
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15208",
+        "code": "80-15208",
+        "name": "Toasted Marshmallow",
+        "hex": "#DEDACE",
+        "rgb": {
+          "r": 222,
+          "g": 218,
+          "b": 206
+        },
+        "lab": {
+          "l": 87.06,
+          "a": -0.71,
+          "b": 6.38
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15210",
+        "code": "80-15210",
+        "name": "Orchid",
+        "hex": "#B1628E",
+        "rgb": {
+          "r": 177,
+          "g": 98,
+          "b": 142
+        },
+        "lab": {
+          "l": 51.88,
+          "a": 37.64,
+          "b": -10.17
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15211",
+        "code": "80-15211",
+        "name": "Tomato",
+        "hex": "#D14337",
+        "rgb": {
+          "r": 209,
+          "g": 67,
+          "b": 55
+        },
+        "lab": {
+          "l": 49.31,
+          "a": 55.06,
+          "b": 38.53
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15212",
+        "code": "80-15212",
+        "name": "Spice",
+        "hex": "#D9593A",
+        "rgb": {
+          "r": 217,
+          "g": 89,
+          "b": 58
+        },
+        "lab": {
+          "l": 54.25,
+          "a": 48.48,
+          "b": 42.73
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15213",
+        "code": "80-15213",
+        "name": "Apricot",
+        "hex": "#F5A168",
+        "rgb": {
+          "r": 245,
+          "g": 161,
+          "b": 104
+        },
+        "lab": {
+          "l": 73.48,
+          "a": 25.58,
+          "b": 42.19
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15214",
+        "code": "80-15214",
+        "name": "Sherbet",
+        "hex": "#D8E47C",
+        "rgb": {
+          "r": 216,
+          "g": 228,
+          "b": 124
+        },
+        "lab": {
+          "l": 87.75,
+          "a": -18.98,
+          "b": 49.13
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15215",
+        "code": "80-15215",
+        "name": "Mist",
+        "hex": "#93B0BD",
+        "rgb": {
+          "r": 147,
+          "g": 176,
+          "b": 189
+        },
+        "lab": {
+          "l": 70.12,
+          "a": -7,
+          "b": -9.92
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15216",
+        "code": "80-15216",
+        "name": "Sky",
+        "hex": "#4AC0D8",
+        "rgb": {
+          "r": 74,
+          "g": 192,
+          "b": 216
+        },
+        "lab": {
+          "l": 72.3,
+          "a": -25.45,
+          "b": -21.73
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15217",
+        "code": "80-15217",
+        "name": "Lagoon",
+        "hex": "#00A4AC",
+        "rgb": {
+          "r": 0,
+          "g": 164,
+          "b": 172
+        },
+        "lab": {
+          "l": 61.24,
+          "a": -32.03,
+          "b": -14.27
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15218",
+        "code": "80-15218",
+        "name": "Teal",
+        "hex": "#047F8A",
+        "rgb": {
+          "r": 4,
+          "g": 127,
+          "b": 138
+        },
+        "lab": {
+          "l": 48.31,
+          "a": -24.8,
+          "b": -14.28
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15219",
+        "code": "80-15219",
+        "name": "Fern",
+        "hex": "#7F971A",
+        "rgb": {
+          "r": 127,
+          "g": 151,
+          "b": 26
+        },
+        "lab": {
+          "l": 58.71,
+          "a": -24.62,
+          "b": 56.81
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15220",
+        "code": "80-15220",
+        "name": "Olive",
+        "hex": "#696E31",
+        "rgb": {
+          "r": 105,
+          "g": 110,
+          "b": 49
+        },
+        "lab": {
+          "l": 44.77,
+          "a": -11.41,
+          "b": 32.91
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15961",
+        "code": "80-15961",
+        "name": "Cherry",
+        "hex": "#9D2B3A",
+        "rgb": {
+          "r": 157,
+          "g": 43,
+          "b": 58
+        },
+        "lab": {
+          "l": 36.37,
+          "a": 47.62,
+          "b": 18.87
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19001",
+        "code": "80-19001",
+        "name": "White",
+        "hex": "#EAEFEE",
+        "rgb": {
+          "r": 234,
+          "g": 239,
+          "b": 238
+        },
+        "lab": {
+          "l": 94.05,
+          "a": -1.84,
+          "b": -0.1
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19002",
+        "code": "80-19002",
+        "name": "Creme",
+        "hex": "#E1E2BB",
+        "rgb": {
+          "r": 225,
+          "g": 226,
+          "b": 187
+        },
+        "lab": {
+          "l": 88.92,
+          "a": -6.76,
+          "b": 19
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19003",
+        "code": "80-19003",
+        "name": "Yellow",
+        "hex": "#E7CE3E",
+        "rgb": {
+          "r": 231,
+          "g": 206,
+          "b": 62
+        },
+        "lab": {
+          "l": 82.64,
+          "a": -6.25,
+          "b": 70.39
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19004",
+        "code": "80-19004",
+        "name": "Orange",
+        "hex": "#EB7B31",
+        "rgb": {
+          "r": 235,
+          "g": 123,
+          "b": 49
+        },
+        "lab": {
+          "l": 63.39,
+          "a": 38.35,
+          "b": 57.19
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19005",
+        "code": "80-19005",
+        "name": "Red",
+        "hex": "#B0353C",
+        "rgb": {
+          "r": 176,
+          "g": 53,
+          "b": 60
+        },
+        "lab": {
+          "l": 41.38,
+          "a": 50.03,
+          "b": 24.75
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19006",
+        "code": "80-19006",
+        "name": "Bubblegum",
+        "hex": "#D8729A",
+        "rgb": {
+          "r": 216,
+          "g": 114,
+          "b": 154
+        },
+        "lab": {
+          "l": 60.76,
+          "a": 44.38,
+          "b": -3.41
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19007",
+        "code": "80-19007",
+        "name": "Purple",
+        "hex": "#684B86",
+        "rgb": {
+          "r": 104,
+          "g": 75,
+          "b": 134
+        },
+        "lab": {
+          "l": 37.29,
+          "a": 24.75,
+          "b": -28.53
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19008",
+        "code": "80-19008",
+        "name": "Dark Blue",
+        "hex": "#0E5092",
+        "rgb": {
+          "r": 14,
+          "g": 80,
+          "b": 146
+        },
+        "lab": {
+          "l": 33.78,
+          "a": 6.67,
+          "b": -41.77
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19009",
+        "code": "80-19009",
+        "name": "Light Blue",
+        "hex": "#278CC9",
+        "rgb": {
+          "r": 39,
+          "g": 140,
+          "b": 201
+        },
+        "lab": {
+          "l": 55.48,
+          "a": -7.04,
+          "b": -39.5
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19010",
+        "code": "80-19010",
+        "name": "Dark Green",
+        "hex": "#007B4E",
+        "rgb": {
+          "r": 0,
+          "g": 123,
+          "b": 78
+        },
+        "lab": {
+          "l": 45.24,
+          "a": -40.75,
+          "b": 16.57
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19011",
+        "code": "80-19011",
+        "name": "Light Green",
+        "hex": "#18C7B1",
+        "rgb": {
+          "r": 24,
+          "g": 199,
+          "b": 177
+        },
+        "lab": {
+          "l": 72.37,
+          "a": -45.34,
+          "b": -0.49
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19012",
+        "code": "80-19012",
+        "name": "Brown",
+        "hex": "#674C44",
+        "rgb": {
+          "r": 103,
+          "g": 76,
+          "b": 68
+        },
+        "lab": {
+          "l": 34.94,
+          "a": 10.17,
+          "b": 9.2
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19017",
+        "code": "80-19017",
+        "name": "Grey",
+        "hex": "#909497",
+        "rgb": {
+          "r": 144,
+          "g": 148,
+          "b": 151
+        },
+        "lab": {
+          "l": 61.08,
+          "a": -0.85,
+          "b": -2.09
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19018",
+        "code": "80-19018",
+        "name": "Black",
+        "hex": "#323234",
+        "rgb": {
+          "r": 50,
+          "g": 50,
+          "b": 52
+        },
+        "lab": {
+          "l": 20.86,
+          "a": 0.47,
+          "b": -1.27
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19020",
+        "code": "80-19020",
+        "name": "Rust",
+        "hex": "#995043",
+        "rgb": {
+          "r": 153,
+          "g": 80,
+          "b": 67
+        },
+        "lab": {
+          "l": 42.64,
+          "a": 29.08,
+          "b": 21.34
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19021",
+        "code": "80-19021",
+        "name": "Light Brown",
+        "hex": "#936848",
+        "rgb": {
+          "r": 147,
+          "g": 104,
+          "b": 72
+        },
+        "lab": {
+          "l": 47.72,
+          "a": 13.3,
+          "b": 24.81
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19033",
+        "code": "80-19033",
+        "name": "Peach",
+        "hex": "#E9BFB9",
+        "rgb": {
+          "r": 233,
+          "g": 191,
+          "b": 185
+        },
+        "lab": {
+          "l": 80.79,
+          "a": 14.08,
+          "b": 8.68
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19035",
+        "code": "80-19035",
+        "name": "Tan",
+        "hex": "#C5AC90",
+        "rgb": {
+          "r": 197,
+          "g": 172,
+          "b": 144
+        },
+        "lab": {
+          "l": 71.82,
+          "a": 4.75,
+          "b": 17.75
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19038",
+        "code": "80-19038",
+        "name": "Magenta",
+        "hex": "#E04284",
+        "rgb": {
+          "r": 224,
+          "g": 66,
+          "b": 132
+        },
+        "lab": {
+          "l": 53.4,
+          "a": 65.47,
+          "b": -1.19
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19052",
+        "code": "80-19052",
+        "name": "Pastel Blue",
+        "hex": "#4A9CCF",
+        "rgb": {
+          "r": 74,
+          "g": 156,
+          "b": 207
+        },
+        "lab": {
+          "l": 61.43,
+          "a": -9.28,
+          "b": -33.51
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19053",
+        "code": "80-19053",
+        "name": "Pastel Green",
+        "hex": "#6DCC94",
+        "rgb": {
+          "r": 109,
+          "g": 204,
+          "b": 148
+        },
+        "lab": {
+          "l": 75.18,
+          "a": -40.76,
+          "b": 19.39
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19054",
+        "code": "80-19054",
+        "name": "Pastel Lavender",
+        "hex": "#937FBF",
+        "rgb": {
+          "r": 147,
+          "g": 127,
+          "b": 191
+        },
+        "lab": {
+          "l": 57.21,
+          "a": 21.12,
+          "b": -30.7
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19056",
+        "code": "80-19056",
+        "name": "Pastel Yellow",
+        "hex": "#E9E290",
+        "rgb": {
+          "r": 233,
+          "g": 226,
+          "b": 144
+        },
+        "lab": {
+          "l": 88.8,
+          "a": -9.31,
+          "b": 40.94
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19057",
+        "code": "80-19057",
+        "name": "Cheddar",
+        "hex": "#FBB146",
+        "rgb": {
+          "r": 251,
+          "g": 177,
+          "b": 70
+        },
+        "lab": {
+          "l": 77.52,
+          "a": 17.59,
+          "b": 62.95
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19058",
+        "code": "80-19058",
+        "name": "Toothpaste",
+        "hex": "#96D1D4",
+        "rgb": {
+          "r": 150,
+          "g": 209,
+          "b": 212
+        },
+        "lab": {
+          "l": 80.09,
+          "a": -18.06,
+          "b": -7.56
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19059",
+        "code": "80-19059",
+        "name": "Hot Coral",
+        "hex": "#DD595B",
+        "rgb": {
+          "r": 221,
+          "g": 89,
+          "b": 91
+        },
+        "lab": {
+          "l": 55.36,
+          "a": 51.77,
+          "b": 25.75
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19060",
+        "code": "80-19060",
+        "name": "Plum",
+        "hex": "#A75D9D",
+        "rgb": {
+          "r": 167,
+          "g": 93,
+          "b": 157
+        },
+        "lab": {
+          "l": 50.07,
+          "a": 39.51,
+          "b": -21.89
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19061",
+        "code": "80-19061",
+        "name": "Kiwi Lime",
+        "hex": "#69B845",
+        "rgb": {
+          "r": 105,
+          "g": 184,
+          "b": 69
+        },
+        "lab": {
+          "l": 67.81,
+          "a": -45.04,
+          "b": 49.57
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19062",
+        "code": "80-19062",
+        "name": "Turquoise",
+        "hex": "#0098C5",
+        "rgb": {
+          "r": 0,
+          "g": 152,
+          "b": 197
+        },
+        "lab": {
+          "l": 58.49,
+          "a": -17.38,
+          "b": -32.56
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19063",
+        "code": "80-19063",
+        "name": "Blush",
+        "hex": "#F99297",
+        "rgb": {
+          "r": 249,
+          "g": 146,
+          "b": 151
+        },
+        "lab": {
+          "l": 71.51,
+          "a": 39.28,
+          "b": 14.32
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19070",
+        "code": "80-19070",
+        "name": "Periwinkle Blue",
+        "hex": "#6683B7",
+        "rgb": {
+          "r": 102,
+          "g": 131,
+          "b": 183
+        },
+        "lab": {
+          "l": 54.53,
+          "a": 3.65,
+          "b": -30.58
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19079",
+        "code": "80-19079",
+        "name": "Light Pink",
+        "hex": "#E1BCCE",
+        "rgb": {
+          "r": 225,
+          "g": 188,
+          "b": 206
+        },
+        "lab": {
+          "l": 79.86,
+          "a": 16.15,
+          "b": -4.08
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19080",
+        "code": "80-19080",
+        "name": "Green",
+        "hex": "#4DAB64",
+        "rgb": {
+          "r": 77,
+          "g": 171,
+          "b": 100
+        },
+        "lab": {
+          "l": 63.03,
+          "a": -43.63,
+          "b": 28.34
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19083",
+        "code": "80-19083",
+        "name": "Pink",
+        "hex": "#D45496",
+        "rgb": {
+          "r": 212,
+          "g": 84,
+          "b": 150
+        },
+        "lab": {
+          "l": 54.6,
+          "a": 56.88,
+          "b": -10.29
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19088",
+        "code": "80-19088",
+        "name": "Raspberry",
+        "hex": "#983864",
+        "rgb": {
+          "r": 152,
+          "g": 56,
+          "b": 100
+        },
+        "lab": {
+          "l": 38.6,
+          "a": 44.52,
+          "b": -4.83
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19090",
+        "code": "80-19090",
+        "name": "Butterscotch",
+        "hex": "#DA9964",
+        "rgb": {
+          "r": 218,
+          "g": 153,
+          "b": 100
+        },
+        "lab": {
+          "l": 68.47,
+          "a": 18.58,
+          "b": 37.39
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19091",
+        "code": "80-19091",
+        "name": "Parrot Green",
+        "hex": "#009188",
+        "rgb": {
+          "r": 0,
+          "g": 145,
+          "b": 136
+        },
+        "lab": {
+          "l": 54.06,
+          "a": -34.38,
+          "b": -4.51
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19092",
+        "code": "80-19092",
+        "name": "Dark Grey",
+        "hex": "#585C61",
+        "rgb": {
+          "r": 88,
+          "g": 92,
+          "b": 97
+        },
+        "lab": {
+          "l": 38.88,
+          "a": -0.46,
+          "b": -3.41
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19093",
+        "code": "80-19093",
+        "name": "Blueberry Creme",
+        "hex": "#85A8E3",
+        "rgb": {
+          "r": 133,
+          "g": 168,
+          "b": 227
+        },
+        "lab": {
+          "l": 68.41,
+          "a": 2.99,
+          "b": -33.5
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19096",
+        "code": "80-19096",
+        "name": "Cranapple",
+        "hex": "#843947",
+        "rgb": {
+          "r": 132,
+          "g": 57,
+          "b": 71
+        },
+        "lab": {
+          "l": 34.58,
+          "a": 33.65,
+          "b": 7.38
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19097",
+        "code": "80-19097",
+        "name": "Prickly Pear",
+        "hex": "#BBC938",
+        "rgb": {
+          "r": 187,
+          "g": 201,
+          "b": 56
+        },
+        "lab": {
+          "l": 77.65,
+          "a": -22.55,
+          "b": 66.44
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-19098",
+        "code": "80-19098",
+        "name": "Sand",
+        "hex": "#E5BE9E",
+        "rgb": {
+          "r": 229,
+          "g": 190,
+          "b": 158
+        },
+        "lab": {
+          "l": 79.59,
+          "a": 9.38,
+          "b": 21.4
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "perler-80-15240",
+        "code": "80-15240",
+        "name": "Mint",
+        "hex": "#B3EED5",
+        "rgb": {
+          "r": 179,
+          "g": 238,
+          "b": 213
+        },
+        "lab": {
+          "l": 89.64,
+          "a": -23.66,
+          "b": 6.07
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "BIORIO"
+      },
+      {
+        "id": "perler-80-15241",
+        "code": "80-15241",
+        "name": "Sour Apple",
+        "hex": "#A3DE6F",
+        "rgb": {
+          "r": 163,
+          "g": 222,
+          "b": 111
+        },
+        "lab": {
+          "l": 82.47,
+          "a": -37.39,
+          "b": 48.1
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "BIORIO"
+      },
+      {
+        "id": "perler-80-15242",
+        "code": "80-15242",
+        "name": "Cotton Candy",
+        "hex": "#F479B0",
+        "rgb": {
+          "r": 244,
+          "g": 121,
+          "b": 176
+        },
+        "lab": {
+          "l": 66.56,
+          "a": 53.05,
+          "b": -6.95
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "BIORIO"
+      },
+      {
+        "id": "perler-80-15243",
+        "code": "80-15243",
+        "name": "Grape",
+        "hex": "#503B9C",
+        "rgb": {
+          "r": 80,
+          "g": 59,
+          "b": 156
+        },
+        "lab": {
+          "l": 32.33,
+          "a": 34.38,
+          "b": -50.01
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "BIORIO"
+      },
+      {
+        "id": "perler-80-15244",
+        "code": "80-15244",
+        "name": "Rose",
+        "hex": "#D25D72",
+        "rgb": {
+          "r": 210,
+          "g": 93,
+          "b": 114
+        },
+        "lab": {
+          "l": 54.81,
+          "a": 48.07,
+          "b": 11.24
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "BIORIO"
+      },
+      {
+        "id": "perler-80-15245",
+        "code": "80-15245",
+        "name": "Iris",
+        "hex": "#4E56A3",
+        "rgb": {
+          "r": 78,
+          "g": 86,
+          "b": 163
+        },
+        "lab": {
+          "l": 39.44,
+          "a": 19.15,
+          "b": -42.78
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "BIORIO"
+      },
+      {
+        "id": "perler-80-15246",
+        "code": "80-15246",
+        "name": "Tangerine",
+        "hex": "#FD5918",
+        "rgb": {
+          "r": 253,
+          "g": 89,
+          "b": 24
+        },
+        "lab": {
+          "l": 59.98,
+          "a": 60.03,
+          "b": 64.75
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "BIORIO"
+      },
+      {
+        "id": "perler-80-15247",
+        "code": "80-15247",
+        "name": "Forest",
+        "hex": "#005D57",
+        "rgb": {
+          "r": 0,
+          "g": 93,
+          "b": 87
+        },
+        "lab": {
+          "l": 35.04,
+          "a": -25.03,
+          "b": -3.32
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "BIORIO"
+      },
+      {
+        "id": "perler-80-15248",
+        "code": "80-15248",
+        "name": "Eggplant",
+        "hex": "#6F3255",
+        "rgb": {
+          "r": 111,
+          "g": 50,
+          "b": 85
+        },
+        "lab": {
+          "l": 30.2,
+          "a": 31.56,
+          "b": -8.49
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "BIORIO"
+      },
+      {
+        "id": "perler-80-15249",
+        "code": "80-15249",
+        "name": "Honey",
+        "hex": "#DA8C2C",
+        "rgb": {
+          "r": 218,
+          "g": 140,
+          "b": 44
+        },
+        "lab": {
+          "l": 64.84,
+          "a": 22.29,
+          "b": 59.74
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "BIORIO"
+      },
+      {
+        "id": "perler-80-15250",
+        "code": "80-15250",
+        "name": "Gingerbread",
+        "hex": "#7E5446",
+        "rgb": {
+          "r": 126,
+          "g": 84,
+          "b": 70
+        },
+        "lab": {
+          "l": 39.95,
+          "a": 15.67,
+          "b": 15.29
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "BIORIO"
+      },
+      {
+        "id": "perler-80-15251",
+        "code": "80-15251",
+        "name": "Thistle",
+        "hex": "#8C8CA7",
+        "rgb": {
+          "r": 140,
+          "g": 140,
+          "b": 167
+        },
+        "lab": {
+          "l": 59.09,
+          "a": 5.71,
+          "b": -14.2
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15252",
+        "code": "80-15252",
+        "name": "Slate Blue",
+        "hex": "#5E6D7B",
+        "rgb": {
+          "r": 94,
+          "g": 109,
+          "b": 123
+        },
+        "lab": {
+          "l": 45.29,
+          "a": -2.26,
+          "b": -9.64
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15253",
+        "code": "80-15253",
+        "name": "Denim",
+        "hex": "#4C6388",
+        "rgb": {
+          "r": 76,
+          "g": 99,
+          "b": 136
+        },
+        "lab": {
+          "l": 41.59,
+          "a": 1.79,
+          "b": -23.21
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15254",
+        "code": "80-15254",
+        "name": "Sage",
+        "hex": "#9AA98E",
+        "rgb": {
+          "r": 154,
+          "g": 169,
+          "b": 142
+        },
+        "lab": {
+          "l": 67.43,
+          "a": -10.33,
+          "b": 12.18
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15255",
+        "code": "80-15255",
+        "name": "Orange Cream",
+        "hex": "#EFB79B",
+        "rgb": {
+          "r": 239,
+          "g": 183,
+          "b": 155
+        },
+        "lab": {
+          "l": 78.8,
+          "a": 16.55,
+          "b": 22.07
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15256",
+        "code": "80-15256",
+        "name": "Fruit Punch",
+        "hex": "#CA3B65",
+        "rgb": {
+          "r": 202,
+          "g": 59,
+          "b": 101
+        },
+        "lab": {
+          "l": 47.79,
+          "a": 58.82,
+          "b": 8.96
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15257",
+        "code": "80-15257",
+        "name": "Fuchsia",
+        "hex": "#CB59B9",
+        "rgb": {
+          "r": 203,
+          "g": 89,
+          "b": 185
+        },
+        "lab": {
+          "l": 55.43,
+          "a": 57.07,
+          "b": -29.54
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15258",
+        "code": "80-15258",
+        "name": "Mulberry",
+        "hex": "#714875",
+        "rgb": {
+          "r": 113,
+          "g": 72,
+          "b": 117
+        },
+        "lab": {
+          "l": 36.8,
+          "a": 25.58,
+          "b": -18.72
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15259",
+        "code": "80-15259",
+        "name": "Slime",
+        "hex": "#C8C85C",
+        "rgb": {
+          "r": 200,
+          "g": 200,
+          "b": 92
+        },
+        "lab": {
+          "l": 78.67,
+          "a": -14.35,
+          "b": 53.11
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15260",
+        "code": "80-15260",
+        "name": "Stone",
+        "hex": "#988C8C",
+        "rgb": {
+          "r": 152,
+          "g": 140,
+          "b": 140
+        },
+        "lab": {
+          "l": 59.27,
+          "a": 4.47,
+          "b": 1.62
+        },
+        "category": "translucent",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15261",
+        "code": "80-15261",
+        "name": "Dark Spruce",
+        "hex": "#14313B",
+        "rgb": {
+          "r": 20,
+          "g": 49,
+          "b": 59
+        },
+        "lab": {
+          "l": 18.63,
+          "a": -7.3,
+          "b": -9.62
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15262",
+        "code": "80-15262",
+        "name": "Cocoa",
+        "hex": "#392928",
+        "rgb": {
+          "r": 57,
+          "g": 41,
+          "b": 40
+        },
+        "lab": {
+          "l": 18.4,
+          "a": 7.28,
+          "b": 3.56
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15265",
+        "code": "80-15265",
+        "name": "Twilight Plum",
+        "hex": "#C685B1",
+        "rgb": {
+          "r": 198,
+          "g": 133,
+          "b": 177
+        },
+        "lab": {
+          "l": 63.31,
+          "a": 31.64,
+          "b": -12.97
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15266",
+        "code": "80-15266",
+        "name": "Caribbean Sea",
+        "hex": "#6CC8AD",
+        "rgb": {
+          "r": 108,
+          "g": 200,
+          "b": 173
+        },
+        "lab": {
+          "l": 74.52,
+          "a": -33.91,
+          "b": 5.03
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15267",
+        "code": "80-15267",
+        "name": "Frosted Lilac",
+        "hex": "#CDB7C3",
+        "rgb": {
+          "r": 205,
+          "g": 183,
+          "b": 195
+        },
+        "lab": {
+          "l": 76.55,
+          "a": 9.91,
+          "b": -3.19
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "perler-80-15273",
+        "code": "80-15273",
+        "name": "Brick",
+        "hex": "#FC9574",
+        "rgb": {
+          "r": 252,
+          "g": 149,
+          "b": 116
+        },
+        "lab": {
+          "l": 71.86,
+          "a": 35.52,
+          "b": 34.02
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "toptierbeads.com"
+      },
+      {
+        "id": "perler-80-15274",
+        "code": "80-15274",
+        "name": "Rich Butter",
+        "hex": "#F6CA69",
+        "rgb": {
+          "r": 246,
+          "g": 202,
+          "b": 105
+        },
+        "lab": {
+          "l": 83.37,
+          "a": 4.58,
+          "b": 53.53
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "toptierbeads.com"
+      },
+      {
+        "id": "perler-80-15275",
+        "code": "80-15275",
+        "name": "Peacock",
+        "hex": "#0090AC",
+        "rgb": {
+          "r": 0,
+          "g": 144,
+          "b": 172
+        },
+        "lab": {
+          "l": 54.99,
+          "a": -22.01,
+          "b": -23.8
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "toptierbeads.com"
+      },
+      {
+        "id": "perler-80-15276",
+        "code": "80-15276",
+        "name": "Carnation Pink",
+        "hex": "#F8C7C9",
+        "rgb": {
+          "r": 248,
+          "g": 199,
+          "b": 201
+        },
+        "lab": {
+          "l": 84.5,
+          "a": 17.67,
+          "b": 5.62
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "perler-80-15089",
+        "code": "80-15089",
+        "name": "Neon Blue",
+        "hex": "#406AE1",
+        "rgb": {
+          "r": 64,
+          "g": 106,
+          "b": 225
+        },
+        "lab": {
+          "l": 48.05,
+          "a": 25.5,
+          "b": -64.91
+        },
+        "category": "neon",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "LizzyJanee"
+      },
+      {
+        "id": "perler-80-15268",
+        "code": "80-15268",
+        "name": "Sunflower",
+        "hex": "#DEBA0B",
+        "rgb": {
+          "r": 222,
+          "g": 186,
+          "b": 11
+        },
+        "lab": {
+          "l": 76.48,
+          "a": -1.16,
+          "b": 77.17
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "LizzyJanee"
+      },
+      {
+        "id": "perler-80-15269",
+        "code": "80-15269",
+        "name": "Lemon",
+        "hex": "#F6D901",
+        "rgb": {
+          "r": 246,
+          "g": 217,
+          "b": 1
+        },
+        "lab": {
+          "l": 86.61,
+          "a": -6.75,
+          "b": 86.44
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "LizzyJanee"
+      },
+      {
+        "id": "perler-80-15263",
+        "code": "80-15263",
+        "name": "Celery",
+        "hex": "#BED4A6",
+        "rgb": {
+          "r": 190,
+          "g": 212,
+          "b": 166
+        },
+        "lab": {
+          "l": 82.26,
+          "a": -15.5,
+          "b": 20.36
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "LizzyJanee"
+      },
+      {
+        "id": "perler-80-15239",
+        "code": "80-15239",
+        "name": "Mocha",
+        "hex": "#C8B693",
+        "rgb": {
+          "r": 200,
+          "g": 182,
+          "b": 147
+        },
+        "lab": {
+          "l": 74.73,
+          "a": 0.97,
+          "b": 20.18
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "LizzyJanee"
+      },
+      {
+        "id": "perler-80-15272",
+        "code": "80-15272",
+        "name": "Coral",
+        "hex": "#FF9A8B",
+        "rgb": {
+          "r": 255,
+          "g": 154,
+          "b": 139
+        },
+        "lab": {
+          "l": 73.7,
+          "a": 36.13,
+          "b": 24.05
+        },
+        "category": "solid",
+        "purchaseUrl": "https://perler.com",
+        "discontinued": false,
+        "contributor": "SteelSkyStudios"
+      }
+    ]
+  },
+  "hama": {
+    "brandId": "hama",
+    "brandName": "Hama",
+    "displayName": "Hama Beads",
+    "totalColors": 92,
+    "beadSize": 5,
+    "colorData": [
+      {
+        "id": "hama-H01",
+        "code": "H01",
+        "name": "White",
+        "hex": "#E5ECF1",
+        "rgb": {
+          "r": 229,
+          "g": 236,
+          "b": 241
+        },
+        "lab": {
+          "l": 93.01,
+          "a": -1.41,
+          "b": -3.22
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H02",
+        "code": "H02",
+        "name": "Cream",
+        "hex": "#E4E4C5",
+        "rgb": {
+          "r": 228,
+          "g": 228,
+          "b": 197
+        },
+        "lab": {
+          "l": 89.87,
+          "a": -5.18,
+          "b": 15.16
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H03",
+        "code": "H03",
+        "name": "Yellow",
+        "hex": "#E9C704",
+        "rgb": {
+          "r": 233,
+          "g": 199,
+          "b": 4
+        },
+        "lab": {
+          "l": 80.84,
+          "a": -3.16,
+          "b": 81.49
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H04",
+        "code": "H04",
+        "name": "Orange",
+        "hex": "#D14803",
+        "rgb": {
+          "r": 209,
+          "g": 72,
+          "b": 3
+        },
+        "lab": {
+          "l": 49.74,
+          "a": 51.82,
+          "b": 59.78
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H05",
+        "code": "H05",
+        "name": "Red",
+        "hex": "#B4060E",
+        "rgb": {
+          "r": 180,
+          "g": 6,
+          "b": 14
+        },
+        "lab": {
+          "l": 37.61,
+          "a": 61.14,
+          "b": 46.46
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H06",
+        "code": "H06",
+        "name": "Pink",
+        "hex": "#EA8AA5",
+        "rgb": {
+          "r": 234,
+          "g": 138,
+          "b": 165
+        },
+        "lab": {
+          "l": 68.31,
+          "a": 39.73,
+          "b": 1.67
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H07",
+        "code": "H07",
+        "name": "Purple",
+        "hex": "#712297",
+        "rgb": {
+          "r": 113,
+          "g": 34,
+          "b": 151
+        },
+        "lab": {
+          "l": 31.55,
+          "a": 52.42,
+          "b": -48.03
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H08",
+        "code": "H08",
+        "name": "Blue",
+        "hex": "#0239A3",
+        "rgb": {
+          "r": 2,
+          "g": 57,
+          "b": 163
+        },
+        "lab": {
+          "l": 28.33,
+          "a": 28.91,
+          "b": -60.95
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H09",
+        "code": "H09",
+        "name": "Light Blue",
+        "hex": "#025BC3",
+        "rgb": {
+          "r": 2,
+          "g": 91,
+          "b": 195
+        },
+        "lab": {
+          "l": 40.3,
+          "a": 18.92,
+          "b": -60.36
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H10",
+        "code": "H10",
+        "name": "Green",
+        "hex": "#027643",
+        "rgb": {
+          "r": 2,
+          "g": 118,
+          "b": 67
+        },
+        "lab": {
+          "l": 43.32,
+          "a": -41.09,
+          "b": 20.31
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H11",
+        "code": "H11",
+        "name": "Light Green",
+        "hex": "#19CDA7",
+        "rgb": {
+          "r": 25,
+          "g": 205,
+          "b": 167
+        },
+        "lab": {
+          "l": 73.97,
+          "a": -50.4,
+          "b": 7.24
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H12",
+        "code": "H12",
+        "name": "Brown",
+        "hex": "#3E271A",
+        "rgb": {
+          "r": 62,
+          "g": 39,
+          "b": 26
+        },
+        "lab": {
+          "l": 18.14,
+          "a": 9.05,
+          "b": 12.96
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H13",
+        "code": "H13",
+        "name": "Transparent Red",
+        "hex": "#C02435",
+        "rgb": {
+          "r": 192,
+          "g": 36,
+          "b": 53
+        },
+        "lab": {
+          "l": 42.35,
+          "a": 60.13,
+          "b": 30.89
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H14",
+        "code": "H14",
+        "name": "Transparent Yellow",
+        "hex": "#E4AA32",
+        "rgb": {
+          "r": 228,
+          "g": 170,
+          "b": 50
+        },
+        "lab": {
+          "l": 73.21,
+          "a": 10.74,
+          "b": 65.65
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "galaxy"
+      },
+      {
+        "id": "hama-H16",
+        "code": "H16",
+        "name": "Transparent Green",
+        "hex": "#37B876",
+        "rgb": {
+          "r": 55,
+          "g": 184,
+          "b": 118
+        },
+        "lab": {
+          "l": 66.82,
+          "a": -50.08,
+          "b": 23.68
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H17",
+        "code": "H17",
+        "name": "Grey",
+        "hex": "#838F98",
+        "rgb": {
+          "r": 131,
+          "g": 143,
+          "b": 152
+        },
+        "lab": {
+          "l": 58.73,
+          "a": -2.4,
+          "b": -6.24
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H18",
+        "code": "H18",
+        "name": "Black",
+        "hex": "#141315",
+        "rgb": {
+          "r": 20,
+          "g": 19,
+          "b": 21
+        },
+        "lab": {
+          "l": 6.04,
+          "a": 0.87,
+          "b": -1.08
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H19",
+        "code": "H19",
+        "name": "Clear",
+        "hex": "#D8D2CE",
+        "rgb": {
+          "r": 216,
+          "g": 210,
+          "b": 206
+        },
+        "lab": {
+          "l": 84.56,
+          "a": 1.36,
+          "b": 2.71
+        },
+        "category": "translucent",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H20",
+        "code": "H20",
+        "name": "Reddish Brown",
+        "hex": "#8D2A0F",
+        "rgb": {
+          "r": 141,
+          "g": 42,
+          "b": 15
+        },
+        "lab": {
+          "l": 32.6,
+          "a": 40.64,
+          "b": 38.74
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H21",
+        "code": "H21",
+        "name": "Light Brown",
+        "hex": "#BE6C21",
+        "rgb": {
+          "r": 190,
+          "g": 108,
+          "b": 33
+        },
+        "lab": {
+          "l": 53.8,
+          "a": 27.32,
+          "b": 52.61
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H22",
+        "code": "H22",
+        "name": "Dark Red",
+        "hex": "#91020A",
+        "rgb": {
+          "r": 145,
+          "g": 2,
+          "b": 10
+        },
+        "lab": {
+          "l": 29.63,
+          "a": 52.43,
+          "b": 39.03
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H24",
+        "code": "H24",
+        "name": "Translucent Purple",
+        "hex": "#683E9A",
+        "rgb": {
+          "r": 104,
+          "g": 62,
+          "b": 154
+        },
+        "lab": {
+          "l": 35.44,
+          "a": 37.61,
+          "b": -43.65
+        },
+        "category": "translucent",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H25",
+        "code": "H25",
+        "name": "Translucent Brown",
+        "hex": "#87593D",
+        "rgb": {
+          "r": 135,
+          "g": 89,
+          "b": 61
+        },
+        "lab": {
+          "l": 42.21,
+          "a": 15.71,
+          "b": 23.85
+        },
+        "category": "translucent",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H26",
+        "code": "H26",
+        "name": "Matt Rose",
+        "hex": "#E8A498",
+        "rgb": {
+          "r": 232,
+          "g": 164,
+          "b": 152
+        },
+        "lab": {
+          "l": 73.53,
+          "a": 23.62,
+          "b": 16.29
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H27",
+        "code": "H27",
+        "name": "Beige",
+        "hex": "#DCB18E",
+        "rgb": {
+          "r": 220,
+          "g": 177,
+          "b": 142
+        },
+        "lab": {
+          "l": 75.21,
+          "a": 10.8,
+          "b": 23.83
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H28",
+        "code": "H28",
+        "name": "Dark Green",
+        "hex": "#1E2C1C",
+        "rgb": {
+          "r": 30,
+          "g": 44,
+          "b": 28
+        },
+        "lab": {
+          "l": 16.31,
+          "a": -9.92,
+          "b": 8.54
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H29",
+        "code": "H29",
+        "name": "Claret",
+        "hex": "#BF0142",
+        "rgb": {
+          "r": 191,
+          "g": 1,
+          "b": 66
+        },
+        "lab": {
+          "l": 40.4,
+          "a": 66.11,
+          "b": 20.35
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H30",
+        "code": "H30",
+        "name": "Burgundy",
+        "hex": "#4E0C1B",
+        "rgb": {
+          "r": 78,
+          "g": 12,
+          "b": 27
+        },
+        "lab": {
+          "l": 15.29,
+          "a": 31.03,
+          "b": 9.04
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H31",
+        "code": "H31",
+        "name": "Turquoise",
+        "hex": "#489AB9",
+        "rgb": {
+          "r": 72,
+          "g": 154,
+          "b": 185
+        },
+        "lab": {
+          "l": 59.88,
+          "a": -15.57,
+          "b": -23.56
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H32",
+        "code": "H32",
+        "name": "Neon Fuchsia",
+        "hex": "#FF208D",
+        "rgb": {
+          "r": 255,
+          "g": 32,
+          "b": 141
+        },
+        "lab": {
+          "l": 56.31,
+          "a": 82.49,
+          "b": -1.62
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H33",
+        "code": "H33",
+        "name": "Cerise",
+        "hex": "#FF3956",
+        "rgb": {
+          "r": 255,
+          "g": 57,
+          "b": 86
+        },
+        "lab": {
+          "l": 56.94,
+          "a": 73.51,
+          "b": 31.88
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H34",
+        "code": "H34",
+        "name": "Neon Yellow",
+        "hex": "#E5EF13",
+        "rgb": {
+          "r": 229,
+          "g": 239,
+          "b": 19
+        },
+        "lab": {
+          "l": 90.98,
+          "a": -24.48,
+          "b": 87.45
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H35",
+        "code": "H35",
+        "name": "Neon Red",
+        "hex": "#FF2833",
+        "rgb": {
+          "r": 255,
+          "g": 40,
+          "b": 51
+        },
+        "lab": {
+          "l": 55.1,
+          "a": 76.2,
+          "b": 49.41
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H36",
+        "code": "H36",
+        "name": "Neon Blue",
+        "hex": "#2353B0",
+        "rgb": {
+          "r": 35,
+          "g": 83,
+          "b": 176
+        },
+        "lab": {
+          "l": 37.26,
+          "a": 18.6,
+          "b": -54.14
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H37",
+        "code": "H37",
+        "name": "Neon Green",
+        "hex": "#06B73C",
+        "rgb": {
+          "r": 6,
+          "g": 183,
+          "b": 60
+        },
+        "lab": {
+          "l": 65.14,
+          "a": -63.57,
+          "b": 49.84
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H38",
+        "code": "H38",
+        "name": "Neon Orange",
+        "hex": "#FD8600",
+        "rgb": {
+          "r": 253,
+          "g": 134,
+          "b": 0
+        },
+        "lab": {
+          "l": 67.98,
+          "a": 39.06,
+          "b": 74.43
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H39",
+        "code": "H39",
+        "name": "Fluorescent Yellow",
+        "hex": "#F1F21C",
+        "rgb": {
+          "r": 241,
+          "g": 242,
+          "b": 28
+        },
+        "lab": {
+          "l": 92.7,
+          "a": -20.83,
+          "b": 87.97
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H40",
+        "code": "H40",
+        "name": "Fluorescent Orange",
+        "hex": "#FE630B",
+        "rgb": {
+          "r": 254,
+          "g": 99,
+          "b": 11
+        },
+        "lab": {
+          "l": 61.68,
+          "a": 56.04,
+          "b": 69.02
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H41",
+        "code": "H41",
+        "name": "Fluorescent Blue",
+        "hex": "#2659B2",
+        "rgb": {
+          "r": 38,
+          "g": 89,
+          "b": 178
+        },
+        "lab": {
+          "l": 39.19,
+          "a": 15.73,
+          "b": -52.19
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H42",
+        "code": "H42",
+        "name": "Fluorescent Green",
+        "hex": "#0CBD51",
+        "rgb": {
+          "r": 12,
+          "g": 189,
+          "b": 81
+        },
+        "lab": {
+          "l": 67.33,
+          "a": -62.6,
+          "b": 42.98
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "hama-H43",
+        "code": "H43",
+        "name": "Pastel Yellow",
+        "hex": "#E7E45A",
+        "rgb": {
+          "r": 231,
+          "g": 228,
+          "b": 90
+        },
+        "lab": {
+          "l": 88.55,
+          "a": -15.75,
+          "b": 65.62
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H44",
+        "code": "H44",
+        "name": "Pastel Red",
+        "hex": "#F96160",
+        "rgb": {
+          "r": 249,
+          "g": 97,
+          "b": 96
+        },
+        "lab": {
+          "l": 61.26,
+          "a": 58.02,
+          "b": 31.37
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H45",
+        "code": "H45",
+        "name": "Pastel Purple",
+        "hex": "#8E69CD",
+        "rgb": {
+          "r": 142,
+          "g": 105,
+          "b": 205
+        },
+        "lab": {
+          "l": 52.13,
+          "a": 35.92,
+          "b": -46.7
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H46",
+        "code": "H46",
+        "name": "Pastel Blue",
+        "hex": "#51AEE4",
+        "rgb": {
+          "r": 81,
+          "g": 174,
+          "b": 228
+        },
+        "lab": {
+          "l": 67.74,
+          "a": -11.21,
+          "b": -35.29
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H47",
+        "code": "H47",
+        "name": "Pastel Green",
+        "hex": "#80DF96",
+        "rgb": {
+          "r": 128,
+          "g": 223,
+          "b": 150
+        },
+        "lab": {
+          "l": 81.6,
+          "a": -43.54,
+          "b": 27.22
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H48",
+        "code": "H48",
+        "name": "Pastel Pink",
+        "hex": "#D67AD1",
+        "rgb": {
+          "r": 214,
+          "g": 122,
+          "b": 209
+        },
+        "lab": {
+          "l": 64.02,
+          "a": 48.23,
+          "b": -29.76
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H49",
+        "code": "H49",
+        "name": "Azure",
+        "hex": "#0FACD1",
+        "rgb": {
+          "r": 15,
+          "g": 172,
+          "b": 209
+        },
+        "lab": {
+          "l": 65.13,
+          "a": -23.23,
+          "b": -28.98
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H60",
+        "code": "H60",
+        "name": "Teddybear Brown",
+        "hex": "#F0981E",
+        "rgb": {
+          "r": 240,
+          "g": 152,
+          "b": 30
+        },
+        "lab": {
+          "l": 70.23,
+          "a": 24.82,
+          "b": 69.87
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H70",
+        "code": "H70",
+        "name": "Light Grey",
+        "hex": "#A5B3C0",
+        "rgb": {
+          "r": 165,
+          "g": 179,
+          "b": 192
+        },
+        "lab": {
+          "l": 72.26,
+          "a": -2.17,
+          "b": -8.25
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H71",
+        "code": "H71",
+        "name": "Dark Grey",
+        "hex": "#445059",
+        "rgb": {
+          "r": 68,
+          "g": 80,
+          "b": 89
+        },
+        "lab": {
+          "l": 33.32,
+          "a": -2.47,
+          "b": -6.85
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H75",
+        "code": "H75",
+        "name": "Tan",
+        "hex": "#B78C6D",
+        "rgb": {
+          "r": 183,
+          "g": 140,
+          "b": 109
+        },
+        "lab": {
+          "l": 61.59,
+          "a": 12.17,
+          "b": 22.86
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H76",
+        "code": "H76",
+        "name": "Nougat",
+        "hex": "#8A5937",
+        "rgb": {
+          "r": 138,
+          "g": 89,
+          "b": 55
+        },
+        "lab": {
+          "l": 42.5,
+          "a": 16.51,
+          "b": 27.78
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H77",
+        "code": "H77",
+        "name": "Cloudy White",
+        "hex": "#CED1C8",
+        "rgb": {
+          "r": 206,
+          "g": 209,
+          "b": 200
+        },
+        "lab": {
+          "l": 83.39,
+          "a": -2.64,
+          "b": 4.1
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H78",
+        "code": "H78",
+        "name": "Light Peach",
+        "hex": "#F7C1AA",
+        "rgb": {
+          "r": 247,
+          "g": 193,
+          "b": 170
+        },
+        "lab": {
+          "l": 82.28,
+          "a": 16.18,
+          "b": 19
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H79",
+        "code": "H79",
+        "name": "Apricot",
+        "hex": "#F87633",
+        "rgb": {
+          "r": 248,
+          "g": 118,
+          "b": 51
+        },
+        "lab": {
+          "l": 64.29,
+          "a": 45.9,
+          "b": 57.85
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H82",
+        "code": "H82",
+        "name": "Plum",
+        "hex": "#91175A",
+        "rgb": {
+          "r": 145,
+          "g": 23,
+          "b": 90
+        },
+        "lab": {
+          "l": 32.64,
+          "a": 53.33,
+          "b": -7.46
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H83",
+        "code": "H83",
+        "name": "Petrol Blue",
+        "hex": "#037A9F",
+        "rgb": {
+          "r": 3,
+          "g": 122,
+          "b": 159
+        },
+        "lab": {
+          "l": 47.55,
+          "a": -14.63,
+          "b": -27.79
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H84",
+        "code": "H84",
+        "name": "Olive Green",
+        "hex": "#687836",
+        "rgb": {
+          "r": 104,
+          "g": 120,
+          "b": 54
+        },
+        "lab": {
+          "l": 47.81,
+          "a": -16.81,
+          "b": 33.85
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H95",
+        "code": "H95",
+        "name": "Pastel Rose",
+        "hex": "#DD9BA3",
+        "rgb": {
+          "r": 221,
+          "g": 155,
+          "b": 163
+        },
+        "lab": {
+          "l": 70.5,
+          "a": 25.75,
+          "b": 5.76
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H96",
+        "code": "H96",
+        "name": "Pastel Lilac",
+        "hex": "#B491AD",
+        "rgb": {
+          "r": 180,
+          "g": 145,
+          "b": 173
+        },
+        "lab": {
+          "l": 64.14,
+          "a": 17.97,
+          "b": -9.66
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H97",
+        "code": "H97",
+        "name": "Pastel Ice Blue",
+        "hex": "#8AAFC2",
+        "rgb": {
+          "r": 138,
+          "g": 175,
+          "b": 194
+        },
+        "lab": {
+          "l": 69.44,
+          "a": -8.03,
+          "b": -13.76
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H98",
+        "code": "H98",
+        "name": "Pastel Mint",
+        "hex": "#94CCA4",
+        "rgb": {
+          "r": 148,
+          "g": 204,
+          "b": 164
+        },
+        "lab": {
+          "l": 77.38,
+          "a": -26.22,
+          "b": 14.2
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Jeppewl"
+      },
+      {
+        "id": "hama-H15",
+        "code": "H15",
+        "name": "Transparent Blue",
+        "hex": "#487ED5",
+        "rgb": {
+          "r": 72,
+          "g": 126,
+          "b": 213
+        },
+        "lab": {
+          "l": 53.06,
+          "a": 9.97,
+          "b": -50.06
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "hama-H55",
+        "code": "H55",
+        "name": "Green (Glow in the Dark)",
+        "hex": "#FAF8ED",
+        "rgb": {
+          "r": 250,
+          "g": 248,
+          "b": 237
+        },
+        "lab": {
+          "l": 97.46,
+          "a": -1.22,
+          "b": 5.51
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "hama-H56",
+        "code": "H56",
+        "name": "Red (Glow in the Dark)",
+        "hex": "#EDBF9F",
+        "rgb": {
+          "r": 237,
+          "g": 191,
+          "b": 159
+        },
+        "lab": {
+          "l": 80.61,
+          "a": 12.05,
+          "b": 22.39
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "hama-H57",
+        "code": "H57",
+        "name": "Blue (Glow in the Dark)",
+        "hex": "#C4D0E3",
+        "rgb": {
+          "r": 196,
+          "g": 208,
+          "b": 227
+        },
+        "lab": {
+          "l": 83.12,
+          "a": -0.29,
+          "b": -10.75
+        },
+        "category": "neon",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "hama-H61",
+        "code": "H61",
+        "name": "Gold",
+        "hex": "#D99350",
+        "rgb": {
+          "r": 217,
+          "g": 147,
+          "b": 80
+        },
+        "lab": {
+          "l": 66.67,
+          "a": 19.9,
+          "b": 45.49
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "hama-H62",
+        "code": "H62",
+        "name": "Silver",
+        "hex": "#48474A",
+        "rgb": {
+          "r": 72,
+          "g": 71,
+          "b": 74
+        },
+        "lab": {
+          "l": 30.35,
+          "a": 1.08,
+          "b": -1.65
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "hama-H63",
+        "code": "H63",
+        "name": "Bronze",
+        "hex": "#42312F",
+        "rgb": {
+          "r": 66,
+          "g": 49,
+          "b": 47
+        },
+        "lab": {
+          "l": 22.16,
+          "a": 7.35,
+          "b": 4.25
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "hama-H64",
+        "code": "H64",
+        "name": "Pearl",
+        "hex": "#EFEBE4",
+        "rgb": {
+          "r": 239,
+          "g": 235,
+          "b": 228
+        },
+        "lab": {
+          "l": 93.18,
+          "a": 0.13,
+          "b": 3.86
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "hama-H72",
+        "code": "H72",
+        "name": "Translucent Pink",
+        "hex": "#F097B0",
+        "rgb": {
+          "r": 240,
+          "g": 151,
+          "b": 176
+        },
+        "lab": {
+          "l": 72.09,
+          "a": 36.54,
+          "b": 1.13
+        },
+        "category": "translucent",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "hama-H73",
+        "code": "H73",
+        "name": "Translucent Aqua",
+        "hex": "#59AEF5",
+        "rgb": {
+          "r": 89,
+          "g": 174,
+          "b": 245
+        },
+        "lab": {
+          "l": 68.74,
+          "a": -4.4,
+          "b": -42.98
+        },
+        "category": "translucent",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "hama-H74",
+        "code": "H74",
+        "name": "Translucent Lilac",
+        "hex": "#5B55BD",
+        "rgb": {
+          "r": 91,
+          "g": 85,
+          "b": 189
+        },
+        "lab": {
+          "l": 41.84,
+          "a": 31.01,
+          "b": -54.22
+        },
+        "category": "translucent",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "hama-H101",
+        "code": "H101",
+        "name": "Eucalyptus",
+        "hex": "#A9C39B",
+        "rgb": {
+          "r": 169,
+          "g": 195,
+          "b": 155
+        },
+        "lab": {
+          "l": 75.97,
+          "a": -16.19,
+          "b": 17.23
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Tryk47"
+      },
+      {
+        "id": "hama-H102",
+        "code": "H102",
+        "name": "Forest Green",
+        "hex": "#356B2D",
+        "rgb": {
+          "r": 53,
+          "g": 107,
+          "b": 45
+        },
+        "lab": {
+          "l": 40.35,
+          "a": -31.32,
+          "b": 28.96
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Tryk47"
+      },
+      {
+        "id": "hama-H103",
+        "code": "H103",
+        "name": "Light Yellow",
+        "hex": "#FFE660",
+        "rgb": {
+          "r": 255,
+          "g": 230,
+          "b": 96
+        },
+        "lab": {
+          "l": 91.1,
+          "a": -6.58,
+          "b": 66.45
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Tryk47"
+      },
+      {
+        "id": "hama-H104",
+        "code": "H104",
+        "name": "Lime",
+        "hex": "#BCD122",
+        "rgb": {
+          "r": 188,
+          "g": 209,
+          "b": 34
+        },
+        "lab": {
+          "l": 79.85,
+          "a": -26.84,
+          "b": 74.74
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Tryk47"
+      },
+      {
+        "id": "hama-H105",
+        "code": "H105",
+        "name": "Light Apricot",
+        "hex": "#FFAC78",
+        "rgb": {
+          "r": 255,
+          "g": 172,
+          "b": 120
+        },
+        "lab": {
+          "l": 77.36,
+          "a": 25.05,
+          "b": 38.98
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Tryk47"
+      },
+      {
+        "id": "hama-H106",
+        "code": "H106",
+        "name": "Light Lavender",
+        "hex": "#CCC5ED",
+        "rgb": {
+          "r": 204,
+          "g": 197,
+          "b": 237
+        },
+        "lab": {
+          "l": 81.23,
+          "a": 10.19,
+          "b": -18.87
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Tryk47"
+      },
+      {
+        "id": "hama-H107",
+        "code": "H107",
+        "name": "Lavender",
+        "hex": "#6A87C1",
+        "rgb": {
+          "r": 106,
+          "g": 135,
+          "b": 193
+        },
+        "lab": {
+          "l": 56.33,
+          "a": 5.28,
+          "b": -33.45
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "Tryk47"
+      },
+      {
+        "id": "hama-H108",
+        "code": "H108",
+        "name": "Aubergine",
+        "hex": "#2A2536",
+        "rgb": {
+          "r": 42,
+          "g": 37,
+          "b": 54
+        },
+        "lab": {
+          "l": 15.91,
+          "a": 6.7,
+          "b": -10.17
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "hama-H109",
+        "code": "H109",
+        "name": "Cloudy Grey",
+        "hex": "#8A847F",
+        "rgb": {
+          "r": 138,
+          "g": 132,
+          "b": 127
+        },
+        "lab": {
+          "l": 55.52,
+          "a": 1.31,
+          "b": 3.5
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "hama-H110",
+        "code": "H110",
+        "name": "Matcha",
+        "hex": "#838956",
+        "rgb": {
+          "r": 131,
+          "g": 137,
+          "b": 86
+        },
+        "lab": {
+          "l": 55.47,
+          "a": -10.74,
+          "b": 26.64
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "hama-H111",
+        "code": "H111",
+        "name": "Dark Blush",
+        "hex": "#835854",
+        "rgb": {
+          "r": 131,
+          "g": 88,
+          "b": 84
+        },
+        "lab": {
+          "l": 41.92,
+          "a": 17.22,
+          "b": 9.54
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "hama-H112",
+        "code": "H112",
+        "name": "Blush",
+        "hex": "#AD8A82",
+        "rgb": {
+          "r": 173,
+          "g": 138,
+          "b": 130
+        },
+        "lab": {
+          "l": 60.49,
+          "a": 12.05,
+          "b": 9.33
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "hama-H113",
+        "code": "H113",
+        "name": "Aqua",
+        "hex": "#5F887B",
+        "rgb": {
+          "r": 95,
+          "g": 136,
+          "b": 123
+        },
+        "lab": {
+          "l": 53.46,
+          "a": -17.15,
+          "b": 2.44
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "hama-H114",
+        "code": "H114",
+        "name": "Cherry Red",
+        "hex": "#9A2C31",
+        "rgb": {
+          "r": 154,
+          "g": 44,
+          "b": 49
+        },
+        "lab": {
+          "l": 35.78,
+          "a": 45.69,
+          "b": 23.67
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "hama-H115",
+        "code": "H115",
+        "name": "Bright Green",
+        "hex": "#6E975F",
+        "rgb": {
+          "r": 110,
+          "g": 151,
+          "b": 95
+        },
+        "lab": {
+          "l": 58.3,
+          "a": -25.03,
+          "b": 25.11
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "hama-H116",
+        "code": "H116",
+        "name": "Midnight Blue",
+        "hex": "#222838",
+        "rgb": {
+          "r": 34,
+          "g": 40,
+          "b": 56
+        },
+        "lab": {
+          "l": 16.22,
+          "a": 2.13,
+          "b": -11.16
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "hama-H117",
+        "code": "H117",
+        "name": "Taupe Grey",
+        "hex": "#777169",
+        "rgb": {
+          "r": 119,
+          "g": 113,
+          "b": 105
+        },
+        "lab": {
+          "l": 47.95,
+          "a": 0.8,
+          "b": 5.27
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "hama-H118",
+        "code": "H118",
+        "name": "Maroon Red",
+        "hex": "#612932",
+        "rgb": {
+          "r": 97,
+          "g": 41,
+          "b": 50
+        },
+        "lab": {
+          "l": 24.82,
+          "a": 26.38,
+          "b": 6.63
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      },
+      {
+        "id": "hama-H119",
+        "code": "H119",
+        "name": "Sky Blue",
+        "hex": "#4167B4",
+        "rgb": {
+          "r": 65,
+          "g": 103,
+          "b": 180
+        },
+        "lab": {
+          "l": 44.4,
+          "a": 11.43,
+          "b": -44.94
+        },
+        "category": "solid",
+        "purchaseUrl": "https://hama.dk",
+        "discontinued": false,
+        "contributor": "rYonder"
+      }
+    ]
+  },
+  "artkal": {
+    "brandId": "artkal",
+    "brandName": "Artkal",
+    "displayName": "Artkal Beads",
+    "totalColors": 199,
+    "beadSize": 5,
+    "colorData": [
+      {
+        "id": "artkal-S01",
+        "code": "S01",
+        "name": "White",
+        "hex": "#EAEEF3",
+        "rgb": {
+          "r": 234,
+          "g": 238,
+          "b": 243
+        },
+        "lab": {
+          "l": 93.93,
+          "a": -0.42,
+          "b": -2.88
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S02",
+        "code": "S02",
+        "name": "Burning Sand",
+        "hex": "#EE927C",
+        "rgb": {
+          "r": 238,
+          "g": 146,
+          "b": 124
+        },
+        "lab": {
+          "l": 69.61,
+          "a": 32.41,
+          "b": 26.4
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S03",
+        "code": "S03",
+        "name": "Tangerine",
+        "hex": "#FFA630",
+        "rgb": {
+          "r": 255,
+          "g": 166,
+          "b": 48
+        },
+        "lab": {
+          "l": 75.3,
+          "a": 24.18,
+          "b": 69.37
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S04",
+        "code": "S04",
+        "name": "Orange",
+        "hex": "#EB6027",
+        "rgb": {
+          "r": 235,
+          "g": 96,
+          "b": 39
+        },
+        "lab": {
+          "l": 58.21,
+          "a": 51.1,
+          "b": 56.67
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S05",
+        "code": "S05",
+        "name": "Tall Poppy",
+        "hex": "#CB3531",
+        "rgb": {
+          "r": 203,
+          "g": 53,
+          "b": 49
+        },
+        "lab": {
+          "l": 46.27,
+          "a": 58.07,
+          "b": 38.22
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S06",
+        "code": "S06",
+        "name": "Raspberry Pink",
+        "hex": "#EF67B2",
+        "rgb": {
+          "r": 239,
+          "g": 103,
+          "b": 178
+        },
+        "lab": {
+          "l": 62.73,
+          "a": 60.13,
+          "b": -13.88
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S07",
+        "code": "S07",
+        "name": "Gray",
+        "hex": "#959698",
+        "rgb": {
+          "r": 149,
+          "g": 150,
+          "b": 152
+        },
+        "lab": {
+          "l": 62.06,
+          "a": 0.03,
+          "b": -1.18
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S08",
+        "code": "S08",
+        "name": "Emerald",
+        "hex": "#1FC467",
+        "rgb": {
+          "r": 31,
+          "g": 196,
+          "b": 103
+        },
+        "lab": {
+          "l": 70,
+          "a": -60.23,
+          "b": 35.55
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S09",
+        "code": "S09",
+        "name": "Dark Green",
+        "hex": "#00685E",
+        "rgb": {
+          "r": 0,
+          "g": 104,
+          "b": 94
+        },
+        "lab": {
+          "l": 39.08,
+          "a": -28.15,
+          "b": -1.68
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S10",
+        "code": "S10",
+        "name": "Baby Blue",
+        "hex": "#2EABD8",
+        "rgb": {
+          "r": 46,
+          "g": 171,
+          "b": 216
+        },
+        "lab": {
+          "l": 65.48,
+          "a": -18.22,
+          "b": -32.26
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S11",
+        "code": "S11",
+        "name": "Dark Blue",
+        "hex": "#004FA4",
+        "rgb": {
+          "r": 0,
+          "g": 79,
+          "b": 164
+        },
+        "lab": {
+          "l": 34.54,
+          "a": 14.15,
+          "b": -51.43
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S12",
+        "code": "S12",
+        "name": "Pastel Lavender",
+        "hex": "#9165B2",
+        "rgb": {
+          "r": 145,
+          "g": 101,
+          "b": 178
+        },
+        "lab": {
+          "l": 50.15,
+          "a": 32.51,
+          "b": -34.27
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S13",
+        "code": "S13",
+        "name": "Black",
+        "hex": "#292A2B",
+        "rgb": {
+          "r": 41,
+          "g": 42,
+          "b": 43
+        },
+        "lab": {
+          "l": 17,
+          "a": -0.2,
+          "b": -0.81
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S14",
+        "code": "S14",
+        "name": "Sandstorm",
+        "hex": "#E1C835",
+        "rgb": {
+          "r": 225,
+          "g": 200,
+          "b": 53
+        },
+        "lab": {
+          "l": 80.5,
+          "a": -6.1,
+          "b": 71.24
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S15",
+        "code": "S15",
+        "name": "Redwood",
+        "hex": "#9A4541",
+        "rgb": {
+          "r": 154,
+          "g": 69,
+          "b": 65
+        },
+        "lab": {
+          "l": 40.43,
+          "a": 35.2,
+          "b": 19.7
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S16",
+        "code": "S16",
+        "name": "Brown",
+        "hex": "#65463D",
+        "rgb": {
+          "r": 101,
+          "g": 70,
+          "b": 61
+        },
+        "lab": {
+          "l": 32.89,
+          "a": 12,
+          "b": 10.73
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S17",
+        "code": "S17",
+        "name": "Light Brown",
+        "hex": "#895D49",
+        "rgb": {
+          "r": 137,
+          "g": 93,
+          "b": 73
+        },
+        "lab": {
+          "l": 43.7,
+          "a": 15.47,
+          "b": 18.74
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S18",
+        "code": "S18",
+        "name": "Sand",
+        "hex": "#DCA384",
+        "rgb": {
+          "r": 220,
+          "g": 163,
+          "b": 132
+        },
+        "lab": {
+          "l": 71.61,
+          "a": 17.14,
+          "b": 24.36
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S19",
+        "code": "S19",
+        "name": "Bubble Gun",
+        "hex": "#F2BFB8",
+        "rgb": {
+          "r": 242,
+          "g": 191,
+          "b": 184
+        },
+        "lab": {
+          "l": 81.62,
+          "a": 17.24,
+          "b": 10.52
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S20",
+        "code": "S20",
+        "name": "Green",
+        "hex": "#009053",
+        "rgb": {
+          "r": 0,
+          "g": 144,
+          "b": 83
+        },
+        "lab": {
+          "l": 52.48,
+          "a": -47.61,
+          "b": 23.4
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S21",
+        "code": "S21",
+        "name": "Pastel Green",
+        "hex": "#8BB23A",
+        "rgb": {
+          "r": 139,
+          "g": 178,
+          "b": 58
+        },
+        "lab": {
+          "l": 67.75,
+          "a": -30.97,
+          "b": 54.69
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S22",
+        "code": "S22",
+        "name": "Purple",
+        "hex": "#48337E",
+        "rgb": {
+          "r": 72,
+          "g": 51,
+          "b": 126
+        },
+        "lab": {
+          "l": 27.44,
+          "a": 28.37,
+          "b": -39.45
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S23",
+        "code": "S23",
+        "name": "Royal Purple",
+        "hex": "#644FA4",
+        "rgb": {
+          "r": 100,
+          "g": 79,
+          "b": 164
+        },
+        "lab": {
+          "l": 39.55,
+          "a": 29.26,
+          "b": -43.11
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S24",
+        "code": "S24",
+        "name": "True Blue",
+        "hex": "#0078BF",
+        "rgb": {
+          "r": 0,
+          "g": 120,
+          "b": 191
+        },
+        "lab": {
+          "l": 48.5,
+          "a": -1.28,
+          "b": -44.87
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S25",
+        "code": "S25",
+        "name": "Hot Pink",
+        "hex": "#DC519A",
+        "rgb": {
+          "r": 220,
+          "g": 81,
+          "b": 154
+        },
+        "lab": {
+          "l": 55.52,
+          "a": 61.01,
+          "b": -11.13
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S26",
+        "code": "S26",
+        "name": "Magenta",
+        "hex": "#DA4383",
+        "rgb": {
+          "r": 218,
+          "g": 67,
+          "b": 131
+        },
+        "lab": {
+          "l": 52.47,
+          "a": 63.33,
+          "b": -2.08
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S27",
+        "code": "S27",
+        "name": "Yellow",
+        "hex": "#EAC125",
+        "rgb": {
+          "r": 234,
+          "g": 193,
+          "b": 37
+        },
+        "lab": {
+          "l": 79.48,
+          "a": 0.86,
+          "b": 75.29
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S28",
+        "code": "S28",
+        "name": "Lily Pink",
+        "hex": "#DDA1CC",
+        "rgb": {
+          "r": 221,
+          "g": 161,
+          "b": 204
+        },
+        "lab": {
+          "l": 73.04,
+          "a": 28.95,
+          "b": -13.17
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S29",
+        "code": "S29",
+        "name": "Pastel Yellow",
+        "hex": "#E1D367",
+        "rgb": {
+          "r": 225,
+          "g": 211,
+          "b": 103
+        },
+        "lab": {
+          "l": 83.75,
+          "a": -8.79,
+          "b": 54.42
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S30",
+        "code": "S30",
+        "name": "Shadow Green",
+        "hex": "#9EC9CD",
+        "rgb": {
+          "r": 158,
+          "g": 201,
+          "b": 205
+        },
+        "lab": {
+          "l": 78.14,
+          "a": -13.2,
+          "b": -6.64
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S31",
+        "code": "S31",
+        "name": "Sea Mist",
+        "hex": "#B2D7CE",
+        "rgb": {
+          "r": 178,
+          "g": 215,
+          "b": 206
+        },
+        "lab": {
+          "l": 83.19,
+          "a": -13.94,
+          "b": 0.39
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S32",
+        "code": "S32",
+        "name": "Beeswax",
+        "hex": "#EED39E",
+        "rgb": {
+          "r": 238,
+          "g": 211,
+          "b": 158
+        },
+        "lab": {
+          "l": 85.62,
+          "a": 1.87,
+          "b": 29.73
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S33",
+        "code": "S33",
+        "name": "Maverick",
+        "hex": "#C0B7D7",
+        "rgb": {
+          "r": 192,
+          "g": 183,
+          "b": 215
+        },
+        "lab": {
+          "l": 76.06,
+          "a": 9.33,
+          "b": -14.91
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S34",
+        "code": "S34",
+        "name": "Red",
+        "hex": "#B61927",
+        "rgb": {
+          "r": 182,
+          "g": 25,
+          "b": 39
+        },
+        "lab": {
+          "l": 39.22,
+          "a": 59.4,
+          "b": 35.16
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S35",
+        "code": "S35",
+        "name": "Mona Lisa",
+        "hex": "#E1CCD2",
+        "rgb": {
+          "r": 225,
+          "g": 204,
+          "b": 210
+        },
+        "lab": {
+          "l": 83.89,
+          "a": 8.33,
+          "b": -0.31
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S36",
+        "code": "S36",
+        "name": "Old Pink",
+        "hex": "#CE6D83",
+        "rgb": {
+          "r": 206,
+          "g": 109,
+          "b": 131
+        },
+        "lab": {
+          "l": 57.75,
+          "a": 40.56,
+          "b": 5.37
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S37",
+        "code": "S37",
+        "name": "Blue-Green",
+        "hex": "#60BFCB",
+        "rgb": {
+          "r": 96,
+          "g": 191,
+          "b": 203
+        },
+        "lab": {
+          "l": 72.27,
+          "a": -24.73,
+          "b": -14.64
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S38",
+        "code": "S38",
+        "name": "Burgundy",
+        "hex": "#A3134A",
+        "rgb": {
+          "r": 163,
+          "g": 19,
+          "b": 74
+        },
+        "lab": {
+          "l": 35.5,
+          "a": 57.38,
+          "b": 7.56
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S39",
+        "code": "S39",
+        "name": "Yellow Orange",
+        "hex": "#E68739",
+        "rgb": {
+          "r": 230,
+          "g": 135,
+          "b": 57
+        },
+        "lab": {
+          "l": 65.32,
+          "a": 30.44,
+          "b": 55.38
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S40",
+        "code": "S40",
+        "name": "Carnation Pink",
+        "hex": "#E182B0",
+        "rgb": {
+          "r": 225,
+          "g": 130,
+          "b": 176
+        },
+        "lab": {
+          "l": 65.83,
+          "a": 42.29,
+          "b": -8.29
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S41",
+        "code": "S41",
+        "name": "Copper",
+        "hex": "#9D5B2E",
+        "rgb": {
+          "r": 157,
+          "g": 91,
+          "b": 46
+        },
+        "lab": {
+          "l": 45.43,
+          "a": 23.1,
+          "b": 36.79
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-S42",
+        "code": "S42",
+        "name": "Silver",
+        "hex": "#676B73",
+        "rgb": {
+          "r": 103,
+          "g": 107,
+          "b": 115
+        },
+        "lab": {
+          "l": 45.13,
+          "a": 0.21,
+          "b": -4.99
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-S43",
+        "code": "S43",
+        "name": "Dark Gray",
+        "hex": "#70757B",
+        "rgb": {
+          "r": 112,
+          "g": 117,
+          "b": 123
+        },
+        "lab": {
+          "l": 49,
+          "a": -0.6,
+          "b": -3.95
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S44",
+        "code": "S44",
+        "name": "Sky Blue",
+        "hex": "#A7CDDE",
+        "rgb": {
+          "r": 167,
+          "g": 205,
+          "b": 222
+        },
+        "lab": {
+          "l": 80.26,
+          "a": -8.77,
+          "b": -12.55
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S45",
+        "code": "S45",
+        "name": "Medium Turquoise",
+        "hex": "#00A5A1",
+        "rgb": {
+          "r": 0,
+          "g": 165,
+          "b": 161
+        },
+        "lab": {
+          "l": 61.2,
+          "a": -35.95,
+          "b": -8.14
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S46",
+        "code": "S46",
+        "name": "Bright Green",
+        "hex": "#8EC324",
+        "rgb": {
+          "r": 142,
+          "g": 195,
+          "b": 36
+        },
+        "lab": {
+          "l": 72.83,
+          "a": -38.76,
+          "b": 67
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S47",
+        "code": "S47",
+        "name": "Marigold",
+        "hex": "#B27938",
+        "rgb": {
+          "r": 178,
+          "g": 121,
+          "b": 56
+        },
+        "lab": {
+          "l": 55.51,
+          "a": 15.98,
+          "b": 43.56
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S48",
+        "code": "S48",
+        "name": "Corn",
+        "hex": "#ECC03D",
+        "rgb": {
+          "r": 236,
+          "g": 192,
+          "b": 61
+        },
+        "lab": {
+          "l": 79.54,
+          "a": 3.03,
+          "b": 67.94
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S49",
+        "code": "S49",
+        "name": "Mulberry Wood",
+        "hex": "#921E5D",
+        "rgb": {
+          "r": 146,
+          "g": 30,
+          "b": 93
+        },
+        "lab": {
+          "l": 33.63,
+          "a": 51.98,
+          "b": -7.9
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S50",
+        "code": "S50",
+        "name": "Mandys Pink",
+        "hex": "#E2A488",
+        "rgb": {
+          "r": 226,
+          "g": 164,
+          "b": 136
+        },
+        "lab": {
+          "l": 72.56,
+          "a": 19.42,
+          "b": 23.58
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S51",
+        "code": "S51",
+        "name": "Spring Sun",
+        "hex": "#DFDABD",
+        "rgb": {
+          "r": 223,
+          "g": 218,
+          "b": 189
+        },
+        "lab": {
+          "l": 86.75,
+          "a": -3.1,
+          "b": 14.9
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S52",
+        "code": "S52",
+        "name": "Picasso",
+        "hex": "#EADE7F",
+        "rgb": {
+          "r": 234,
+          "g": 222,
+          "b": 127
+        },
+        "lab": {
+          "l": 87.62,
+          "a": -8.64,
+          "b": 47.84
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S53",
+        "code": "S53",
+        "name": "Turquoise",
+        "hex": "#55A4D9",
+        "rgb": {
+          "r": 85,
+          "g": 164,
+          "b": 217
+        },
+        "lab": {
+          "l": 64.56,
+          "a": -8.53,
+          "b": -34.17
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S54",
+        "code": "S54",
+        "name": "Light Blue",
+        "hex": "#0084CE",
+        "rgb": {
+          "r": 0,
+          "g": 132,
+          "b": 206
+        },
+        "lab": {
+          "l": 52.9,
+          "a": -2.66,
+          "b": -46.44
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S55",
+        "code": "S55",
+        "name": "Pistachio",
+        "hex": "#97CF87",
+        "rgb": {
+          "r": 151,
+          "g": 207,
+          "b": 135
+        },
+        "lab": {
+          "l": 77.85,
+          "a": -31.55,
+          "b": 30.15
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S56",
+        "code": "S56",
+        "name": "Bright Carrot",
+        "hex": "#F96F40",
+        "rgb": {
+          "r": 249,
+          "g": 111,
+          "b": 64
+        },
+        "lab": {
+          "l": 63.25,
+          "a": 50.07,
+          "b": 50.83
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S57",
+        "code": "S57",
+        "name": "Buccaneer",
+        "hex": "#B35540",
+        "rgb": {
+          "r": 179,
+          "g": 85,
+          "b": 64
+        },
+        "lab": {
+          "l": 47.56,
+          "a": 36.54,
+          "b": 30.14
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S58",
+        "code": "S58",
+        "name": "Paprika",
+        "hex": "#B11836",
+        "rgb": {
+          "r": 177,
+          "g": 24,
+          "b": 54
+        },
+        "lab": {
+          "l": 38.32,
+          "a": 58.85,
+          "b": 24.69
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S59",
+        "code": "S59",
+        "name": "Butterfly Bush",
+        "hex": "#4F3989",
+        "rgb": {
+          "r": 79,
+          "g": 57,
+          "b": 137
+        },
+        "lab": {
+          "l": 30.39,
+          "a": 29.64,
+          "b": -41.52
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S60",
+        "code": "S60",
+        "name": "Lavender",
+        "hex": "#8A7EC2",
+        "rgb": {
+          "r": 138,
+          "g": 126,
+          "b": 194
+        },
+        "lab": {
+          "l": 56.31,
+          "a": 19.74,
+          "b": -33.88
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S61",
+        "code": "S61",
+        "name": "Key Lomen Pie",
+        "hex": "#CDC03F",
+        "rgb": {
+          "r": 205,
+          "g": 192,
+          "b": 63
+        },
+        "lab": {
+          "l": 76.7,
+          "a": -10.1,
+          "b": 63.45
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S62",
+        "code": "S62",
+        "name": "Green Tea",
+        "hex": "#00765F",
+        "rgb": {
+          "r": 0,
+          "g": 118,
+          "b": 95
+        },
+        "lab": {
+          "l": 43.92,
+          "a": -34.3,
+          "b": 4.74
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S63",
+        "code": "S63",
+        "name": "Metallic Gold",
+        "hex": "#696046",
+        "rgb": {
+          "r": 105,
+          "g": 96,
+          "b": 70
+        },
+        "lab": {
+          "l": 40.91,
+          "a": -0.82,
+          "b": 16.19
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-S64",
+        "code": "S64",
+        "name": "Black Rock",
+        "hex": "#36384D",
+        "rgb": {
+          "r": 54,
+          "g": 56,
+          "b": 77
+        },
+        "lab": {
+          "l": 24.16,
+          "a": 4.73,
+          "b": -13.1
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S65",
+        "code": "S65",
+        "name": "Canary",
+        "hex": "#E2E65D",
+        "rgb": {
+          "r": 226,
+          "g": 230,
+          "b": 93
+        },
+        "lab": {
+          "l": 88.71,
+          "a": -18.56,
+          "b": 64.43
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S66",
+        "code": "S66",
+        "name": "Blaze Orange",
+        "hex": "#E5533C",
+        "rgb": {
+          "r": 229,
+          "g": 83,
+          "b": 60
+        },
+        "lab": {
+          "l": 55.25,
+          "a": 55.39,
+          "b": 43.35
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S67",
+        "code": "S67",
+        "name": "Vanilla",
+        "hex": "#E9C1A6",
+        "rgb": {
+          "r": 233,
+          "g": 193,
+          "b": 166
+        },
+        "lab": {
+          "l": 80.86,
+          "a": 10.36,
+          "b": 18.95
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S68",
+        "code": "S68",
+        "name": "Tan",
+        "hex": "#CC9B74",
+        "rgb": {
+          "r": 204,
+          "g": 155,
+          "b": 116
+        },
+        "lab": {
+          "l": 67.68,
+          "a": 13.3,
+          "b": 27.51
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S69",
+        "code": "S69",
+        "name": "Mine Shaft",
+        "hex": "#383E44",
+        "rgb": {
+          "r": 56,
+          "g": 62,
+          "b": 68
+        },
+        "lab": {
+          "l": 25.87,
+          "a": -1,
+          "b": -4.52
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S70",
+        "code": "S70",
+        "name": "Drark Algae",
+        "hex": "#ADAD29",
+        "rgb": {
+          "r": 173,
+          "g": 173,
+          "b": 41
+        },
+        "lab": {
+          "l": 68.7,
+          "a": -15.18,
+          "b": 62.64
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S71",
+        "code": "S71",
+        "name": "Jade Green",
+        "hex": "#007D2B",
+        "rgb": {
+          "r": 0,
+          "g": 125,
+          "b": 43
+        },
+        "lab": {
+          "l": 45.42,
+          "a": -47.73,
+          "b": 35.53
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S72",
+        "code": "S72",
+        "name": "Light Sea Blue",
+        "hex": "#68C4D2",
+        "rgb": {
+          "r": 104,
+          "g": 196,
+          "b": 210
+        },
+        "lab": {
+          "l": 74.24,
+          "a": -23.61,
+          "b": -15.45
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S73",
+        "code": "S73",
+        "name": "Steel Blue",
+        "hex": "#5AB0BF",
+        "rgb": {
+          "r": 90,
+          "g": 176,
+          "b": 191
+        },
+        "lab": {
+          "l": 67.26,
+          "a": -21.74,
+          "b": -15.61
+        },
+        "category": "translucent",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S74",
+        "code": "S74",
+        "name": "Azure",
+        "hex": "#009EC2",
+        "rgb": {
+          "r": 0,
+          "g": 158,
+          "b": 194
+        },
+        "lab": {
+          "l": 60.2,
+          "a": -21.64,
+          "b": -28.23
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S75",
+        "code": "S75",
+        "name": "Dark Steel Blue",
+        "hex": "#0084B2",
+        "rgb": {
+          "r": 0,
+          "g": 132,
+          "b": 178
+        },
+        "lab": {
+          "l": 51.51,
+          "a": -13.3,
+          "b": -32.64
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S76",
+        "code": "S76",
+        "name": "Sea Blue",
+        "hex": "#0093A9",
+        "rgb": {
+          "r": 0,
+          "g": 147,
+          "b": 169
+        },
+        "lab": {
+          "l": 55.82,
+          "a": -24.61,
+          "b": -20.82
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S77",
+        "code": "S77",
+        "name": "Ghost While",
+        "hex": "#D4D8D3",
+        "rgb": {
+          "r": 212,
+          "g": 216,
+          "b": 211
+        },
+        "lab": {
+          "l": 85.91,
+          "a": -2.26,
+          "b": 1.99
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S78",
+        "code": "S78",
+        "name": "Ash Grey",
+        "hex": "#C2C4C2",
+        "rgb": {
+          "r": 194,
+          "g": 196,
+          "b": 194
+        },
+        "lab": {
+          "l": 78.95,
+          "a": -1.06,
+          "b": 0.76
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S79",
+        "code": "S79",
+        "name": "Light Gray",
+        "hex": "#A7ACAD",
+        "rgb": {
+          "r": 167,
+          "g": 172,
+          "b": 173
+        },
+        "lab": {
+          "l": 69.99,
+          "a": -1.57,
+          "b": -1.13
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S80",
+        "code": "S80",
+        "name": "Dark Olive",
+        "hex": "#8F8E3C",
+        "rgb": {
+          "r": 143,
+          "g": 142,
+          "b": 60
+        },
+        "lab": {
+          "l": 57.57,
+          "a": -10.98,
+          "b": 42.91
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S81",
+        "code": "S81",
+        "name": "Deer",
+        "hex": "#BF9168",
+        "rgb": {
+          "r": 191,
+          "g": 145,
+          "b": 104
+        },
+        "lab": {
+          "l": 63.61,
+          "a": 12.16,
+          "b": 28.45
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S82",
+        "code": "S82",
+        "name": "Clay",
+        "hex": "#AA744E",
+        "rgb": {
+          "r": 170,
+          "g": 116,
+          "b": 78
+        },
+        "lab": {
+          "l": 53.59,
+          "a": 16.95,
+          "b": 29.45
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S83",
+        "code": "S83",
+        "name": "Sienna",
+        "hex": "#BB6833",
+        "rgb": {
+          "r": 187,
+          "g": 104,
+          "b": 51
+        },
+        "lab": {
+          "l": 52.63,
+          "a": 28.95,
+          "b": 43.26
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S84",
+        "code": "S84",
+        "name": "Deep Chestnut",
+        "hex": "#BE5D65",
+        "rgb": {
+          "r": 190,
+          "g": 93,
+          "b": 101
+        },
+        "lab": {
+          "l": 51.52,
+          "a": 39.68,
+          "b": 13.89
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S85",
+        "code": "S85",
+        "name": "Red Wine",
+        "hex": "#99323A",
+        "rgb": {
+          "r": 153,
+          "g": 50,
+          "b": 58
+        },
+        "lab": {
+          "l": 36.67,
+          "a": 43.43,
+          "b": 19.11
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S86",
+        "code": "S86",
+        "name": "Goldenrod",
+        "hex": "#E8AE00",
+        "rgb": {
+          "r": 232,
+          "g": 174,
+          "b": 0
+        },
+        "lab": {
+          "l": 74.47,
+          "a": 9.39,
+          "b": 77.39
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S87",
+        "code": "S87",
+        "name": "Coral Red",
+        "hex": "#EC625E",
+        "rgb": {
+          "r": 236,
+          "g": 98,
+          "b": 94
+        },
+        "lab": {
+          "l": 59.33,
+          "a": 53.06,
+          "b": 29.62
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S88",
+        "code": "S88",
+        "name": "Dark Pink",
+        "hex": "#D62779",
+        "rgb": {
+          "r": 214,
+          "g": 39,
+          "b": 121
+        },
+        "lab": {
+          "l": 48.43,
+          "a": 69.81,
+          "b": -2.06
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S89",
+        "code": "S89",
+        "name": "Charcoal Gray",
+        "hex": "#565A5E",
+        "rgb": {
+          "r": 86,
+          "g": 90,
+          "b": 94
+        },
+        "lab": {
+          "l": 38.02,
+          "a": -0.69,
+          "b": -2.85
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S90",
+        "code": "S90",
+        "name": "Pastel Orange",
+        "hex": "#D9B35E",
+        "rgb": {
+          "r": 217,
+          "g": 179,
+          "b": 94
+        },
+        "lab": {
+          "l": 74.7,
+          "a": 3.76,
+          "b": 47.95
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S91",
+        "code": "S91",
+        "name": "Brunswick Green",
+        "hex": "#153838",
+        "rgb": {
+          "r": 21,
+          "g": 56,
+          "b": 56
+        },
+        "lab": {
+          "l": 21.11,
+          "a": -12.5,
+          "b": -3.84
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S92",
+        "code": "S92",
+        "name": "Dandelion",
+        "hex": "#CEA433",
+        "rgb": {
+          "r": 206,
+          "g": 164,
+          "b": 51
+        },
+        "lab": {
+          "l": 69.41,
+          "a": 4.45,
+          "b": 60.9
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S93",
+        "code": "S93",
+        "name": "Pale Skin",
+        "hex": "#DCB794",
+        "rgb": {
+          "r": 220,
+          "g": 183,
+          "b": 148
+        },
+        "lab": {
+          "l": 76.81,
+          "a": 8.34,
+          "b": 22.8
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S94",
+        "code": "S94",
+        "name": "Warm Blush",
+        "hex": "#DD9285",
+        "rgb": {
+          "r": 221,
+          "g": 146,
+          "b": 133
+        },
+        "lab": {
+          "l": 67.74,
+          "a": 26.8,
+          "b": 18.56
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S95",
+        "code": "S95",
+        "name": "Salmon",
+        "hex": "#E07B69",
+        "rgb": {
+          "r": 224,
+          "g": 123,
+          "b": 105
+        },
+        "lab": {
+          "l": 62.54,
+          "a": 37.33,
+          "b": 27.24
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S96",
+        "code": "S96",
+        "name": "Apricot",
+        "hex": "#EF7F61",
+        "rgb": {
+          "r": 239,
+          "g": 127,
+          "b": 97
+        },
+        "lab": {
+          "l": 65.28,
+          "a": 40.37,
+          "b": 35.57
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S97",
+        "code": "S97",
+        "name": "Papaya",
+        "hex": "#DC772B",
+        "rgb": {
+          "r": 220,
+          "g": 119,
+          "b": 43
+        },
+        "lab": {
+          "l": 60.42,
+          "a": 34.22,
+          "b": 56.16
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S98",
+        "code": "S98",
+        "name": "Himalaya Blue",
+        "hex": "#6AAEDB",
+        "rgb": {
+          "r": 106,
+          "g": 174,
+          "b": 219
+        },
+        "lab": {
+          "l": 68.35,
+          "a": -9.12,
+          "b": -29.33
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S99",
+        "code": "S99",
+        "name": "Waterfall",
+        "hex": "#61BBD3",
+        "rgb": {
+          "r": 97,
+          "g": 187,
+          "b": 211
+        },
+        "lab": {
+          "l": 71.41,
+          "a": -20.25,
+          "b": -20.3
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S100",
+        "code": "S100",
+        "name": "Lagoon",
+        "hex": "#279BBE",
+        "rgb": {
+          "r": 39,
+          "g": 155,
+          "b": 190
+        },
+        "lab": {
+          "l": 59.52,
+          "a": -19.21,
+          "b": -27.01
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S101",
+        "code": "S101",
+        "name": "Electric Blue",
+        "hex": "#00A7E3",
+        "rgb": {
+          "r": 0,
+          "g": 167,
+          "b": 227
+        },
+        "lab": {
+          "l": 64.31,
+          "a": -14.73,
+          "b": -40.19
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S102",
+        "code": "S102",
+        "name": "Pool Blue",
+        "hex": "#0077CA",
+        "rgb": {
+          "r": 0,
+          "g": 119,
+          "b": 202
+        },
+        "lab": {
+          "l": 48.83,
+          "a": 3.67,
+          "b": -50.65
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S103",
+        "code": "S103",
+        "name": "Caribbian Blue",
+        "hex": "#005AA9",
+        "rgb": {
+          "r": 0,
+          "g": 90,
+          "b": 169
+        },
+        "lab": {
+          "l": 38.16,
+          "a": 8.86,
+          "b": -48.57
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S104",
+        "code": "S104",
+        "name": "Deep Water",
+        "hex": "#007F9E",
+        "rgb": {
+          "r": 0,
+          "g": 127,
+          "b": 158
+        },
+        "lab": {
+          "l": 49.06,
+          "a": -17.92,
+          "b": -24.85
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S105",
+        "code": "S105",
+        "name": "Petrol Blue",
+        "hex": "#007D91",
+        "rgb": {
+          "r": 0,
+          "g": 125,
+          "b": 145
+        },
+        "lab": {
+          "l": 47.89,
+          "a": -21.52,
+          "b": -19.04
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S106",
+        "code": "S106",
+        "name": "Wegdewood Blue",
+        "hex": "#00649A",
+        "rgb": {
+          "r": 0,
+          "g": 100,
+          "b": 154
+        },
+        "lab": {
+          "l": 40.32,
+          "a": -3.71,
+          "b": -36.18
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S107",
+        "code": "S107",
+        "name": "Pond Blue",
+        "hex": "#006C9F",
+        "rgb": {
+          "r": 0,
+          "g": 108,
+          "b": 159
+        },
+        "lab": {
+          "l": 43.1,
+          "a": -6.61,
+          "b": -34.76
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S108",
+        "code": "S108",
+        "name": "Seashell Beige",
+        "hex": "#CFC179",
+        "rgb": {
+          "r": 207,
+          "g": 193,
+          "b": 121
+        },
+        "lab": {
+          "l": 77.75,
+          "a": -5.22,
+          "b": 37.98
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S109",
+        "code": "S109",
+        "name": "Beige",
+        "hex": "#C4AE64",
+        "rgb": {
+          "r": 196,
+          "g": 174,
+          "b": 100
+        },
+        "lab": {
+          "l": 71.51,
+          "a": -1.86,
+          "b": 40.66
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S110",
+        "code": "S110",
+        "name": "Beach Beige",
+        "hex": "#AB9745",
+        "rgb": {
+          "r": 171,
+          "g": 151,
+          "b": 69
+        },
+        "lab": {
+          "l": 62.69,
+          "a": -2.84,
+          "b": 45.05
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S111",
+        "code": "S111",
+        "name": "Caffe Latté",
+        "hex": "#978138",
+        "rgb": {
+          "r": 151,
+          "g": 129,
+          "b": 56
+        },
+        "lab": {
+          "l": 54.62,
+          "a": -0.57,
+          "b": 41.75
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S112",
+        "code": "S112",
+        "name": "Oaktree Brown",
+        "hex": "#907C41",
+        "rgb": {
+          "r": 144,
+          "g": 124,
+          "b": 65
+        },
+        "lab": {
+          "l": 52.65,
+          "a": -0.18,
+          "b": 34.72
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S113",
+        "code": "S113",
+        "name": "Khaki",
+        "hex": "#B6AE84",
+        "rgb": {
+          "r": 182,
+          "g": 174,
+          "b": 132
+        },
+        "lab": {
+          "l": 70.79,
+          "a": -3.85,
+          "b": 22.64
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S114",
+        "code": "S114",
+        "name": "Light Greengray",
+        "hex": "#A59F65",
+        "rgb": {
+          "r": 165,
+          "g": 159,
+          "b": 101
+        },
+        "lab": {
+          "l": 64.75,
+          "a": -6.64,
+          "b": 31.06
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S115",
+        "code": "S115",
+        "name": "Mossy Green",
+        "hex": "#938D54",
+        "rgb": {
+          "r": 147,
+          "g": 141,
+          "b": 84
+        },
+        "lab": {
+          "l": 57.94,
+          "a": -6.4,
+          "b": 31.15
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S116",
+        "code": "S116",
+        "name": "Earth Green",
+        "hex": "#8D8B51",
+        "rgb": {
+          "r": 141,
+          "g": 139,
+          "b": 81
+        },
+        "lab": {
+          "l": 56.8,
+          "a": -8.2,
+          "b": 31.23
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S117",
+        "code": "S117",
+        "name": "Sage Green",
+        "hex": "#7F7E49",
+        "rgb": {
+          "r": 127,
+          "g": 126,
+          "b": 73
+        },
+        "lab": {
+          "l": 51.74,
+          "a": -7.99,
+          "b": 28.94
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S118",
+        "code": "S118",
+        "name": "Pinetree Green",
+        "hex": "#5B6E35",
+        "rgb": {
+          "r": 91,
+          "g": 110,
+          "b": 53
+        },
+        "lab": {
+          "l": 43.7,
+          "a": -17.17,
+          "b": 29.25
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S119",
+        "code": "S119",
+        "name": "Frosty Blue",
+        "hex": "#8AD5C9",
+        "rgb": {
+          "r": 138,
+          "g": 213,
+          "b": 201
+        },
+        "lab": {
+          "l": 80.3,
+          "a": -25.91,
+          "b": -1.44
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S120",
+        "code": "S120",
+        "name": "Polar Mint",
+        "hex": "#7CD2A5",
+        "rgb": {
+          "r": 124,
+          "g": 210,
+          "b": 165
+        },
+        "lab": {
+          "l": 77.93,
+          "a": -36.05,
+          "b": 14.28
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S121",
+        "code": "S121",
+        "name": "Celadon Green",
+        "hex": "#72AC9A",
+        "rgb": {
+          "r": 114,
+          "g": 172,
+          "b": 154
+        },
+        "lab": {
+          "l": 66.07,
+          "a": -22.96,
+          "b": 3.27
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S122",
+        "code": "S122",
+        "name": "Eucalyptus",
+        "hex": "#00B26F",
+        "rgb": {
+          "r": 0,
+          "g": 178,
+          "b": 111
+        },
+        "lab": {
+          "l": 64.15,
+          "a": -54.21,
+          "b": 23.72
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S123",
+        "code": "S123",
+        "name": "Clover Field",
+        "hex": "#3EB724",
+        "rgb": {
+          "r": 62,
+          "g": 183,
+          "b": 36
+        },
+        "lab": {
+          "l": 65.76,
+          "a": -58.85,
+          "b": 59.3
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S124",
+        "code": "S124",
+        "name": "Pooltable Felt",
+        "hex": "#0D7535",
+        "rgb": {
+          "r": 13,
+          "g": 117,
+          "b": 53
+        },
+        "lab": {
+          "l": 42.86,
+          "a": -42.45,
+          "b": 27.5
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S125",
+        "code": "S125",
+        "name": "Snake Green",
+        "hex": "#007D6E",
+        "rgb": {
+          "r": 0,
+          "g": 125,
+          "b": 110
+        },
+        "lab": {
+          "l": 46.7,
+          "a": -33.07,
+          "b": -0.14
+        },
+        "category": "neon",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S126",
+        "code": "S126",
+        "name": "Dark Eucalyptus",
+        "hex": "#006E69",
+        "rgb": {
+          "r": 0,
+          "g": 110,
+          "b": 105
+        },
+        "lab": {
+          "l": 41.49,
+          "a": -27.53,
+          "b": -4.82
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S127",
+        "code": "S127",
+        "name": "Marsmallow Rose",
+        "hex": "#DFC3E1",
+        "rgb": {
+          "r": 223,
+          "g": 195,
+          "b": 225
+        },
+        "lab": {
+          "l": 81.92,
+          "a": 15.1,
+          "b": -11.25
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S128",
+        "code": "S128",
+        "name": "Light Grape",
+        "hex": "#D38ED4",
+        "rgb": {
+          "r": 211,
+          "g": 142,
+          "b": 212
+        },
+        "lab": {
+          "l": 67.98,
+          "a": 37.33,
+          "b": -25.35
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S129",
+        "code": "S129",
+        "name": "Rosebud Pink",
+        "hex": "#D5A6BA",
+        "rgb": {
+          "r": 213,
+          "g": 166,
+          "b": 186
+        },
+        "lab": {
+          "l": 72.87,
+          "a": 20.41,
+          "b": -3.6
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S130",
+        "code": "S130",
+        "name": "Fuschia",
+        "hex": "#D6668E",
+        "rgb": {
+          "r": 214,
+          "g": 102,
+          "b": 142
+        },
+        "lab": {
+          "l": 57.8,
+          "a": 48.16,
+          "b": -0.82
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S131",
+        "code": "S131",
+        "name": "Candy Violet",
+        "hex": "#B8AAD9",
+        "rgb": {
+          "r": 184,
+          "g": 170,
+          "b": 217
+        },
+        "lab": {
+          "l": 72.19,
+          "a": 14.29,
+          "b": -21.91
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S132",
+        "code": "S132",
+        "name": "Flamingo",
+        "hex": "#DF486D",
+        "rgb": {
+          "r": 223,
+          "g": 72,
+          "b": 109
+        },
+        "lab": {
+          "l": 53.42,
+          "a": 60.9,
+          "b": 12.56
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S133",
+        "code": "S133",
+        "name": "Pink Plum",
+        "hex": "#BC3CA6",
+        "rgb": {
+          "r": 188,
+          "g": 60,
+          "b": 166
+        },
+        "lab": {
+          "l": 47.85,
+          "a": 62.3,
+          "b": -30.41
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S134",
+        "code": "S134",
+        "name": "Amethyst",
+        "hex": "#803897",
+        "rgb": {
+          "r": 128,
+          "g": 56,
+          "b": 151
+        },
+        "lab": {
+          "l": 37.21,
+          "a": 46.15,
+          "b": -38.83
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S135",
+        "code": "S135",
+        "name": "Moonlight Blue",
+        "hex": "#A7BAE1",
+        "rgb": {
+          "r": 167,
+          "g": 186,
+          "b": 225
+        },
+        "lab": {
+          "l": 75.31,
+          "a": 2.05,
+          "b": -21.64
+        },
+        "category": "pastel",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S136",
+        "code": "S136",
+        "name": "Summer Rain",
+        "hex": "#AFB8DF",
+        "rgb": {
+          "r": 175,
+          "g": 184,
+          "b": 223
+        },
+        "lab": {
+          "l": 75.28,
+          "a": 5.11,
+          "b": -20.55
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S137",
+        "code": "S137",
+        "name": "Azur Blue",
+        "hex": "#6B9AD4",
+        "rgb": {
+          "r": 107,
+          "g": 154,
+          "b": 212
+        },
+        "lab": {
+          "l": 62.5,
+          "a": 0.17,
+          "b": -34.52
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S138",
+        "code": "S138",
+        "name": "Cornflower Blue",
+        "hex": "#5A89CE",
+        "rgb": {
+          "r": 90,
+          "g": 137,
+          "b": 206
+        },
+        "lab": {
+          "l": 56.6,
+          "a": 4.39,
+          "b": -40.44
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S139",
+        "code": "S139",
+        "name": "Forget Me Not",
+        "hex": "#658AD0",
+        "rgb": {
+          "r": 101,
+          "g": 138,
+          "b": 208
+        },
+        "lab": {
+          "l": 57.56,
+          "a": 6.84,
+          "b": -40.03
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S140",
+        "code": "S140",
+        "name": "Indigo",
+        "hex": "#566CBD",
+        "rgb": {
+          "r": 86,
+          "g": 108,
+          "b": 189
+        },
+        "lab": {
+          "l": 47.46,
+          "a": 15.6,
+          "b": -45.21
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S141",
+        "code": "S141",
+        "name": "Horizon Blue",
+        "hex": "#4D74C6",
+        "rgb": {
+          "r": 77,
+          "g": 116,
+          "b": 198
+        },
+        "lab": {
+          "l": 49.67,
+          "a": 11.81,
+          "b": -46.91
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S142",
+        "code": "S142",
+        "name": "Cobolt",
+        "hex": "#416DBE",
+        "rgb": {
+          "r": 65,
+          "g": 109,
+          "b": 190
+        },
+        "lab": {
+          "l": 46.68,
+          "a": 11.2,
+          "b": -47.11
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S143",
+        "code": "S143",
+        "name": "Royal Blue",
+        "hex": "#30429E",
+        "rgb": {
+          "r": 48,
+          "g": 66,
+          "b": 158
+        },
+        "lab": {
+          "l": 31.79,
+          "a": 24.71,
+          "b": -52.22
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S144",
+        "code": "S144",
+        "name": "Marine",
+        "hex": "#024288",
+        "rgb": {
+          "r": 2,
+          "g": 66,
+          "b": 136
+        },
+        "lab": {
+          "l": 28.61,
+          "a": 11.31,
+          "b": -43.98
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S145",
+        "code": "S145",
+        "name": "Pale Yellow Moss",
+        "hex": "#D6CA6A",
+        "rgb": {
+          "r": 214,
+          "g": 202,
+          "b": 106
+        },
+        "lab": {
+          "l": 80.5,
+          "a": -8.46,
+          "b": 48.96
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S146",
+        "code": "S146",
+        "name": "Bloodrose Red",
+        "hex": "#9D1A38",
+        "rgb": {
+          "r": 157,
+          "g": 26,
+          "b": 56
+        },
+        "lab": {
+          "l": 34.39,
+          "a": 52.96,
+          "b": 17.55
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S147",
+        "code": "S147",
+        "name": "Spearmint",
+        "hex": "#80B7A1",
+        "rgb": {
+          "r": 128,
+          "g": 183,
+          "b": 161
+        },
+        "lab": {
+          "l": 70.2,
+          "a": -22.73,
+          "b": 5.46
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S148",
+        "code": "S148",
+        "name": "Mocha",
+        "hex": "#7A594F",
+        "rgb": {
+          "r": 122,
+          "g": 89,
+          "b": 79
+        },
+        "lab": {
+          "l": 40.97,
+          "a": 12.11,
+          "b": 11.12
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S149",
+        "code": "S149",
+        "name": "Creme",
+        "hex": "#EFDBA1",
+        "rgb": {
+          "r": 239,
+          "g": 219,
+          "b": 161
+        },
+        "lab": {
+          "l": 87.77,
+          "a": -1.5,
+          "b": 31.07
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S150",
+        "code": "S150",
+        "name": "Iris Violet",
+        "hex": "#8884D0",
+        "rgb": {
+          "r": 136,
+          "g": 132,
+          "b": 208
+        },
+        "lab": {
+          "l": 58.31,
+          "a": 19.32,
+          "b": -38.68
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S151",
+        "code": "S151",
+        "name": "Forrest Green",
+        "hex": "#345621",
+        "rgb": {
+          "r": 52,
+          "g": 86,
+          "b": 33
+        },
+        "lab": {
+          "l": 32.91,
+          "a": -23.24,
+          "b": 26.58
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S152",
+        "code": "S152",
+        "name": "Lilac",
+        "hex": "#AEADDC",
+        "rgb": {
+          "r": 174,
+          "g": 173,
+          "b": 220
+        },
+        "lab": {
+          "l": 72.26,
+          "a": 10.16,
+          "b": -23.51
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S153",
+        "code": "S153",
+        "name": "Pale Lilac",
+        "hex": "#BCC3E1",
+        "rgb": {
+          "r": 188,
+          "g": 195,
+          "b": 225
+        },
+        "lab": {
+          "l": 79.13,
+          "a": 3.66,
+          "b": -15.72
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S154",
+        "code": "S154",
+        "name": "Sahara Sand",
+        "hex": "#E3C09A",
+        "rgb": {
+          "r": 227,
+          "g": 192,
+          "b": 154
+        },
+        "lab": {
+          "l": 79.82,
+          "a": 7.04,
+          "b": 23.81
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S155",
+        "code": "S155",
+        "name": "Sunkissed Teint",
+        "hex": "#C58B60",
+        "rgb": {
+          "r": 197,
+          "g": 139,
+          "b": 96
+        },
+        "lab": {
+          "l": 62.66,
+          "a": 17.17,
+          "b": 31.71
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S156",
+        "code": "S156",
+        "name": "Steel Grey",
+        "hex": "#5A5F65",
+        "rgb": {
+          "r": 90,
+          "g": 95,
+          "b": 101
+        },
+        "lab": {
+          "l": 40.08,
+          "a": -0.61,
+          "b": -4.09
+        },
+        "category": "translucent",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S157",
+        "code": "S157",
+        "name": "Iron Grey",
+        "hex": "#4C5156",
+        "rgb": {
+          "r": 76,
+          "g": 81,
+          "b": 86
+        },
+        "lab": {
+          "l": 34.18,
+          "a": -0.85,
+          "b": -3.62
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S158",
+        "code": "S158",
+        "name": "Pepper",
+        "hex": "#3A3E42",
+        "rgb": {
+          "r": 58,
+          "g": 62,
+          "b": 66
+        },
+        "lab": {
+          "l": 25.98,
+          "a": -0.71,
+          "b": -3.02
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-S159",
+        "code": "S159",
+        "name": "Oslo Gray",
+        "hex": "#82878B",
+        "rgb": {
+          "r": 130,
+          "g": 135,
+          "b": 139
+        },
+        "lab": {
+          "l": 56.03,
+          "a": -1.02,
+          "b": -2.78
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Perlervault"
+      },
+      {
+        "id": "artkal-SE1",
+        "code": "SE1",
+        "name": "Moon",
+        "hex": "#F1F4FA",
+        "rgb": {
+          "r": 241,
+          "g": 244,
+          "b": 250
+        },
+        "lab": {
+          "l": 96.12,
+          "a": 0.09,
+          "b": -3.23
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE2",
+        "code": "SE2",
+        "name": "Raincloud",
+        "hex": "#A2B2D3",
+        "rgb": {
+          "r": 162,
+          "g": 178,
+          "b": 211
+        },
+        "lab": {
+          "l": 72.38,
+          "a": 1.63,
+          "b": -18.5
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE3",
+        "code": "SE3",
+        "name": "Winter",
+        "hex": "#83A6DC",
+        "rgb": {
+          "r": 131,
+          "g": 166,
+          "b": 220
+        },
+        "lab": {
+          "l": 67.47,
+          "a": 1.66,
+          "b": -31.12
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE4",
+        "code": "SE4",
+        "name": "Tide",
+        "hex": "#70D8ED",
+        "rgb": {
+          "r": 112,
+          "g": 216,
+          "b": 237
+        },
+        "lab": {
+          "l": 81.11,
+          "a": -24.54,
+          "b": -19.56
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE5",
+        "code": "SE5",
+        "name": "Aquamarine",
+        "hex": "#69E3D5",
+        "rgb": {
+          "r": 105,
+          "g": 227,
+          "b": 213
+        },
+        "lab": {
+          "l": 83.31,
+          "a": -37.48,
+          "b": -3.56
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE6",
+        "code": "SE6",
+        "name": "Neptune",
+        "hex": "#2A63C8",
+        "rgb": {
+          "r": 42,
+          "g": 99,
+          "b": 200
+        },
+        "lab": {
+          "l": 43.63,
+          "a": 18.12,
+          "b": -57.83
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE7",
+        "code": "SE7",
+        "name": "Rose Quartz",
+        "hex": "#D5AEC9",
+        "rgb": {
+          "r": 213,
+          "g": 174,
+          "b": 201
+        },
+        "lab": {
+          "l": 75.22,
+          "a": 18.64,
+          "b": -8.34
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE8",
+        "code": "SE8",
+        "name": "Mauve",
+        "hex": "#AF739A",
+        "rgb": {
+          "r": 175,
+          "g": 115,
+          "b": 154
+        },
+        "lab": {
+          "l": 55.8,
+          "a": 29.61,
+          "b": -11.34
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE9",
+        "code": "SE9",
+        "name": "Dark Mauve",
+        "hex": "#704B6D",
+        "rgb": {
+          "r": 112,
+          "g": 75,
+          "b": 109
+        },
+        "lab": {
+          "l": 37.08,
+          "a": 21.75,
+          "b": -13.32
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE10",
+        "code": "SE10",
+        "name": "Wild Berry",
+        "hex": "#D977CD",
+        "rgb": {
+          "r": 217,
+          "g": 119,
+          "b": 205
+        },
+        "lab": {
+          "l": 63.64,
+          "a": 49.96,
+          "b": -28.07
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE11",
+        "code": "SE11",
+        "name": "Sugar Plum",
+        "hex": "#B643AC",
+        "rgb": {
+          "r": 182,
+          "g": 67,
+          "b": 172
+        },
+        "lab": {
+          "l": 48.18,
+          "a": 58.96,
+          "b": -33.5
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE12",
+        "code": "SE12",
+        "name": "Desert",
+        "hex": "#DEB181",
+        "rgb": {
+          "r": 222,
+          "g": 177,
+          "b": 129
+        },
+        "lab": {
+          "l": 75.18,
+          "a": 10.11,
+          "b": 30.76
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE13",
+        "code": "SE13",
+        "name": "Peanut",
+        "hex": "#BC9D77",
+        "rgb": {
+          "r": 188,
+          "g": 157,
+          "b": 119
+        },
+        "lab": {
+          "l": 66.63,
+          "a": 6.04,
+          "b": 24.18
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE14",
+        "code": "SE14",
+        "name": "Toffee",
+        "hex": "#AC7F5D",
+        "rgb": {
+          "r": 172,
+          "g": 127,
+          "b": 93
+        },
+        "lab": {
+          "l": 56.82,
+          "a": 13.08,
+          "b": 25.27
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SE15",
+        "code": "SE15",
+        "name": "Bark",
+        "hex": "#A37E66",
+        "rgb": {
+          "r": 163,
+          "g": 126,
+          "b": 102
+        },
+        "lab": {
+          "l": 55.75,
+          "a": 10.92,
+          "b": 18.57
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "Exodeca1"
+      },
+      {
+        "id": "artkal-SG1",
+        "code": "SG1",
+        "name": "Glow Yellow",
+        "hex": "#C6C0B4",
+        "rgb": {
+          "r": 198,
+          "g": 192,
+          "b": 180
+        },
+        "lab": {
+          "l": 77.88,
+          "a": 0,
+          "b": 6.79
+        },
+        "category": "neon",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SG2",
+        "code": "SG2",
+        "name": "Glow Pink",
+        "hex": "#DFABBC",
+        "rgb": {
+          "r": 223,
+          "g": 171,
+          "b": 188
+        },
+        "lab": {
+          "l": 75.11,
+          "a": 21.6,
+          "b": -1.3
+        },
+        "category": "neon",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SG3",
+        "code": "SG3",
+        "name": "Glow Blue",
+        "hex": "#6FADC1",
+        "rgb": {
+          "r": 111,
+          "g": 173,
+          "b": 193
+        },
+        "lab": {
+          "l": 67.36,
+          "a": -14.7,
+          "b": -16.48
+        },
+        "category": "neon",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SL1",
+        "code": "SL1",
+        "name": "Glitter Blue",
+        "hex": "#3687B2",
+        "rgb": {
+          "r": 54,
+          "g": 135,
+          "b": 178
+        },
+        "lab": {
+          "l": 53.3,
+          "a": -10.43,
+          "b": -29.78
+        },
+        "category": "glitter",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SL2",
+        "code": "SL2",
+        "name": "Glitter Green",
+        "hex": "#117C52",
+        "rgb": {
+          "r": 17,
+          "g": 124,
+          "b": 82
+        },
+        "lab": {
+          "l": 45.83,
+          "a": -38.94,
+          "b": 15.09
+        },
+        "category": "glitter",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SL3",
+        "code": "SL3",
+        "name": "Glitter Red",
+        "hex": "#C22933",
+        "rgb": {
+          "r": 194,
+          "g": 41,
+          "b": 51
+        },
+        "lab": {
+          "l": 43.21,
+          "a": 59.24,
+          "b": 33.18
+        },
+        "category": "glitter",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SL4",
+        "code": "SL4",
+        "name": "Glitter Yellow",
+        "hex": "#CDBD00",
+        "rgb": {
+          "r": 205,
+          "g": 189,
+          "b": 0
+        },
+        "lab": {
+          "l": 75.68,
+          "a": -10.24,
+          "b": 77.03
+        },
+        "category": "glitter",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SN1",
+        "code": "SN1",
+        "name": "Neon Orange",
+        "hex": "#FF7405",
+        "rgb": {
+          "r": 255,
+          "g": 116,
+          "b": 5
+        },
+        "lab": {
+          "l": 64.78,
+          "a": 48.65,
+          "b": 71.92
+        },
+        "category": "neon",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SN2",
+        "code": "SN2",
+        "name": "Neon Green",
+        "hex": "#01C63E",
+        "rgb": {
+          "r": 1,
+          "g": 198,
+          "b": 62
+        },
+        "lab": {
+          "l": 69.99,
+          "a": -68.03,
+          "b": 54.25
+        },
+        "category": "neon",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SN3",
+        "code": "SN3",
+        "name": "Neon Yellow",
+        "hex": "#F2F33C",
+        "rgb": {
+          "r": 242,
+          "g": 243,
+          "b": 60
+        },
+        "lab": {
+          "l": 93.15,
+          "a": -20.04,
+          "b": 81.14
+        },
+        "category": "neon",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SN4",
+        "code": "SN4",
+        "name": "Neon Rose",
+        "hex": "#FF477A",
+        "rgb": {
+          "r": 255,
+          "g": 71,
+          "b": 122
+        },
+        "lab": {
+          "l": 59.14,
+          "a": 71.54,
+          "b": 13.67
+        },
+        "category": "neon",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SP1",
+        "code": "SP1",
+        "name": "Pearlescent Green",
+        "hex": "#93CA87",
+        "rgb": {
+          "r": 147,
+          "g": 202,
+          "b": 135
+        },
+        "lab": {
+          "l": 76.19,
+          "a": -30.56,
+          "b": 27.9
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SP2",
+        "code": "SP2",
+        "name": "Pearlescent Tangerine",
+        "hex": "#FE7F54",
+        "rgb": {
+          "r": 254,
+          "g": 127,
+          "b": 84
+        },
+        "lab": {
+          "l": 67.2,
+          "a": 45.19,
+          "b": 45.29
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SP3",
+        "code": "SP3",
+        "name": "Pearlescent Orange",
+        "hex": "#F0A149",
+        "rgb": {
+          "r": 240,
+          "g": 161,
+          "b": 73
+        },
+        "lab": {
+          "l": 72.56,
+          "a": 21.59,
+          "b": 56.1
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SP4",
+        "code": "SP4",
+        "name": "Pearlescent Pink",
+        "hex": "#DC9EA9",
+        "rgb": {
+          "r": 220,
+          "g": 158,
+          "b": 169
+        },
+        "lab": {
+          "l": 71.24,
+          "a": 24.63,
+          "b": 3.49
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SP5",
+        "code": "SP5",
+        "name": "Pearlescent Red",
+        "hex": "#D63C53",
+        "rgb": {
+          "r": 214,
+          "g": 60,
+          "b": 83
+        },
+        "lab": {
+          "l": 49.69,
+          "a": 60.72,
+          "b": 22.84
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SP6",
+        "code": "SP6",
+        "name": "Pearlescent Blue",
+        "hex": "#2C4E97",
+        "rgb": {
+          "r": 44,
+          "g": 78,
+          "b": 151
+        },
+        "lab": {
+          "l": 34.43,
+          "a": 13.41,
+          "b": -43.72
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SP7",
+        "code": "SP7",
+        "name": "Pearlescent Purple",
+        "hex": "#64427E",
+        "rgb": {
+          "r": 100,
+          "g": 66,
+          "b": 126
+        },
+        "lab": {
+          "l": 34.22,
+          "a": 26.99,
+          "b": -28.46
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-SP8",
+        "code": "SP8",
+        "name": "Pearlescent White",
+        "hex": "#E0DBCA",
+        "rgb": {
+          "r": 224,
+          "g": 219,
+          "b": 202
+        },
+        "lab": {
+          "l": 87.38,
+          "a": -1.19,
+          "b": 8.96
+        },
+        "category": "metallic",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-ST1",
+        "code": "ST1",
+        "name": "Transparent",
+        "hex": "#C7BCB8",
+        "rgb": {
+          "r": 199,
+          "g": 188,
+          "b": 184
+        },
+        "lab": {
+          "l": 77.02,
+          "a": 3.17,
+          "b": 3.41
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-ST2",
+        "code": "ST2",
+        "name": "Transparent Pink",
+        "hex": "#F95498",
+        "rgb": {
+          "r": 249,
+          "g": 84,
+          "b": 152
+        },
+        "lab": {
+          "l": 60.56,
+          "a": 67.9,
+          "b": -1.97
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-ST3",
+        "code": "ST3",
+        "name": "Transparent Tangering",
+        "hex": "#FF7C45",
+        "rgb": {
+          "r": 255,
+          "g": 124,
+          "b": 69
+        },
+        "lab": {
+          "l": 66.6,
+          "a": 46.29,
+          "b": 52.21
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-ST4",
+        "code": "ST4",
+        "name": "Transparent Yellow",
+        "hex": "#DADF3D",
+        "rgb": {
+          "r": 218,
+          "g": 223,
+          "b": 61
+        },
+        "lab": {
+          "l": 86.02,
+          "a": -20.2,
+          "b": 73.56
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-ST5",
+        "code": "ST5",
+        "name": "Transparent Green",
+        "hex": "#0FAE58",
+        "rgb": {
+          "r": 15,
+          "g": 174,
+          "b": 88
+        },
+        "lab": {
+          "l": 62.57,
+          "a": -56.45,
+          "b": 33.74
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      },
+      {
+        "id": "artkal-ST6",
+        "code": "ST6",
+        "name": "Transparent Purple",
+        "hex": "#8477B3",
+        "rgb": {
+          "r": 132,
+          "g": 119,
+          "b": 179
+        },
+        "lab": {
+          "l": 53.33,
+          "a": 18.26,
+          "b": -29.96
+        },
+        "category": "solid",
+        "purchaseUrl": "https://artkalfusebeads.com",
+        "discontinued": false,
+        "contributor": "LThanda"
+      }
+    ]
+  }
+}

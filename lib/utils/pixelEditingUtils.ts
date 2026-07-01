@@ -104,7 +104,7 @@ export function batchReplaceColor(
 }
 
 /**
- * 添加历史记录
+ * 添加历史记录（使用 JSON 序列化优化性能）
  */
 export function addToHistory(
   history: EditHistory[],
@@ -114,7 +114,7 @@ export function addToHistory(
 ): EditHistory[] {
   const newHistory = [
     {
-      grid: grid.map(row => row.map(p => ({ ...p }))),
+      grid: JSON.parse(JSON.stringify(grid)),
       timestamp: Date.now(),
       action
     },
@@ -130,7 +130,7 @@ export function addToHistory(
 }
 
 /**
- * 撤销操作
+ * 撤销操作（使用 JSON 序列化优化性能）
  */
 export function undo(
   history: EditHistory[],
@@ -144,13 +144,13 @@ export function undo(
   const newHistory = history.slice(1);
 
   return {
-    grid: previous.grid.map(row => row.map(p => ({ ...p }))),
+    grid: JSON.parse(JSON.stringify(previous.grid)),
     history: newHistory
   };
 }
 
 /**
- * 重做操作
+ * 重做操作（使用 JSON 序列化优化性能）
  */
 export function redo(
   history: EditHistory[],
@@ -165,7 +165,7 @@ export function redo(
   const newFuture = future.slice(1);
 
   return {
-    grid: next.grid.map(row => row.map(p => ({ ...p }))),
+    grid: JSON.parse(JSON.stringify(next.grid)),
     history: [{ ...next, timestamp: Date.now() }, ...history],
     future: newFuture
   };

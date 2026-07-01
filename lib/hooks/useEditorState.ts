@@ -100,12 +100,19 @@ export function useEditorState() {
   );
 
   /**
+   * 快速深拷贝网格（使用 JSON 序列化优化性能）
+   */
+  const fastCloneGrid = useCallback((gridToClone: MappedPixel[][]): MappedPixel[][] => {
+    return JSON.parse(JSON.stringify(gridToClone));
+  }, []);
+
+  /**
    * 撤销操作
    */
   const handleUndo = useCallback(() => {
     // 将当前状态添加到 future 栈
     const currentState: EditHistory = {
-      grid: grid.map(row => row.map(p => ({ ...p }))),
+      grid: fastCloneGrid(grid),
       timestamp: Date.now(),
       action: '撤销前的状态'
     };
@@ -125,7 +132,7 @@ export function useEditorState() {
       setCanRedo(newFuture.length > 0);
       setIsModified(isGridModified(result.grid, originalGridRef.current));
     }
-  }, [grid]);
+  }, [grid, fastCloneGrid]);
 
   /**
    * 重做操作
@@ -133,7 +140,7 @@ export function useEditorState() {
   const handleRedo = useCallback(() => {
     // 将当前状态添加到 history 栈
     const currentState: EditHistory = {
-      grid: grid.map(row => row.map(p => ({ ...p }))),
+      grid: fastCloneGrid(grid),
       timestamp: Date.now(),
       action: '重做前的状态'
     };
@@ -150,7 +157,7 @@ export function useEditorState() {
       setCanRedo(result.future.length > 0);
       setIsModified(isGridModified(result.grid, originalGridRef.current));
     }
-  }, [grid]);
+  }, [grid, fastCloneGrid]);
 
   /**
    * 清空画布

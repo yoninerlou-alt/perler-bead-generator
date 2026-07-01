@@ -71,6 +71,10 @@ export default function Home() {
   const [shoppingList, setShoppingList] = useState<ShoppingList | null>(null);
   const [showShoppingList, setShowShoppingList] = useState(false);
 
+  // 放大镜
+  const [showMagnifier, setShowMagnifier] = useState(false);
+  const [magnifierZoom, setMagnifierZoom] = useState(2);
+
   // 品牌切换
   const handleBrandChange = useCallback((brand: BrandKey) => {
     switchBrand(brand);
@@ -85,6 +89,16 @@ export default function Home() {
   const handleToolChange = useCallback((tool: 'brush' | 'eraser' | 'fill' | 'picker') => {
     setCurrentTool(tool);
   }, [setCurrentTool]);
+
+  // 切换放大镜
+  const handleToggleMagnifier = useCallback(() => {
+    setShowMagnifier(prev => !prev);
+  }, []);
+
+  // 改变缩放
+  const handleZoomChange = useCallback((newZoom: number) => {
+    setMagnifierZoom(newZoom);
+  }, []);
 
   // 网格点击
   const handlePixelClick = useCallback((row: number, col: number) => {
@@ -257,12 +271,14 @@ export default function Home() {
               <PixelGrid
                 grid={grid}
                 cellSize={20}
+                zoom={showMagnifier ? magnifierZoom : 1}
                 showGrid={exportSettings.showGrid}
                 showCoordinates={exportSettings.showCoordinates}
                 showColorCodes={exportSettings.showColorCodes}
                 brand={currentBrand}
                 onPixelClick={handlePixelClick}
                 onPixelHover={handlePixelHover}
+                onZoomChange={showMagnifier ? handleZoomChange : undefined}
               />
             ) : (
               <div className="empty-grid">
@@ -306,6 +322,8 @@ export default function Home() {
               onUndo={handleUndo}
               onRedo={handleRedo}
               onClear={handleClear}
+              showMagnifier={showMagnifier}
+              onToggleMagnifier={handleToggleMagnifier}
             />
 
             {/* 导出设置 */}
@@ -401,6 +419,8 @@ export default function Home() {
           onUndo={handleUndo}
           onRedo={handleRedo}
           onClear={handleClear}
+          showMagnifier={showMagnifier}
+          onToggleMagnifier={handleToggleMagnifier}
         />
       )}
 

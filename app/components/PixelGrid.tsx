@@ -1,6 +1,6 @@
 /**
  * 像素网格组件
- * 显示像素化后的网格，支持点击编辑
+ * 显示像素化后的网格，支持点击编辑和放大镜功能
  */
 
 import { useRef, useState, useCallback } from 'react';
@@ -9,26 +9,32 @@ import type { MappedPixel, BrandKey } from '@/types/color';
 interface PixelGridProps {
   grid: MappedPixel[][];
   cellSize?: number;
+  zoom?: number;
   showGrid?: boolean;
   showCoordinates?: boolean;
   showColorCodes?: boolean;
   brand?: BrandKey;
   onPixelClick?: (row: number, col: number) => void;
   onPixelHover?: (row: number, col: number) => void;
+  onZoomChange?: (zoom: number) => void;
 }
 
 export function PixelGrid({
   grid,
   cellSize = 20,
+  zoom = 1,
   showGrid = true,
   showCoordinates = false,
   showColorCodes = false,
   brand = 'perler',
   onPixelClick,
-  onPixelHover
+  onPixelHover,
+  onZoomChange
 }: PixelGridProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [hoveredCell, setHoveredCell] = useState<{ row: number; col: number } | null>(null);
+
+  const effectiveCellSize = cellSize * zoom;
 
   // 计算颜色的亮度（用于确定文字颜色）
   const getBrightness = useCallback((hex: string): number => {
@@ -95,96 +101,183 @@ export function PixelGrid({
     setHoveredCell(null);
   };
 
+  const handleZoomIn = () => {
+    const newZoom = Math.min(zoom + 0.5, 5);
+    onZoomChange?.(newZoom);
+  };
+
+  const handleZoomOut = () => {
+    const newZoom = Math.max(zoom - 0.5, 0.5);
+    onZoomChange?.(newZoom);
+  };
+
+  const handleZoomReset = () => {
+    onZoomChange?.(1);
+  };
+
   return (
     <div
       ref={containerRef}
       className="pixel-grid"
       style={{
-        display: 'inline-block',
-        background: 'var(--color-background)',
-        borderRadius: 'var(--radius-lg)',
-        overflow: 'auto',
-        padding: 'var(--space-md)',
-        boxShadow: 'var(--shadow)',
-        maxHeight: '500px',
-        maxWidth: '100%'
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-sm)'
       }}
     >
+      {/* 缩放控制 */}
+      {onZoomChange && (
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 'var(--space-sm)',
+            padding: 'var(--space-sm) var(--space-md)',
+            background: 'var(--color-surface)',
+            borderRadius: 'var(--radius-lg)',
+            boxShadow: 'var(--shadow-sm)'
+          }}
+        >
+          <button
+            onClick={handleZoomOut}
+            disabled={zoom <= 0.5}
+            style={{
+              padding: '4px 8px',
+              border: '2px solid var(--color-border-light)',
+              borderRadius: 'var(--radius-md)',
+              background: 'var(--color-background)',
+              cursor: zoom > 0.5 ? 'pointer' : 'not-allowed',
+              fontSize: '18px'
+            }}
+            type="button"
+          >
+            −
+          </button>
+          <span style={{ fontSize: '14px', fontWeight: '600', minWidth: '50px', textAlign: 'center' }}>
+            {zoom}x
+          </span>
+          <button
+            onClick={handleZoomIn}
+            disabled={zoom >= 5}
+            style={{
+              padding: '4px 8px',
+              border: '2px solid var(--color-border-light)',
+              borderRadius: 'var(--radius-md)',
+              background: 'var(--color-background)',
+              cursor: zoom < 5 ? 'pointer' : 'not-allowed',
+              fontSize: '18px'
+            }}
+            type="button"
+          >
+            +
+          </button>
+          <button
+            onClick={handleZoomReset}
+            style={{
+              padding: '4px 12px',
+              border: '2px solid var(--color-border-light)',
+              borderRadius: 'var(--radius-md)',
+              background: 'var(--color-background)',
+              cursor: 'pointer',
+              fontSize: '12px',
+              marginLeft: 'auto'
+            }}
+            type="button"
+          >
+            重置
+          </button>
+        </div>
+      )}
+
+      {/* 网格 */}
       <div
         style={{
-          display: 'grid',
-          gridTemplateColumns: `repeat(${cols}, ${cellSize}px)`,
-          gridTemplateRows: `repeat(${rows}, ${cellSize}px)`,
-          gap: 0
+          display: 'inline-block',
+          background: 'var(--color-background)',
+          borderRadius: 'var(--radius-lg)',
+          overflow: 'auto',
+          padding: 'var(--space-md)',
+          boxShadow: 'var(--shadow)',
+          maxHeight: zoom > 1 ? '600px' : '500px',
+          maxWidth: '100%'
         }}
       >
-        {grid.map((row, rowIdx) =>
-          row.map((pixel, colIdx) => {
-            const color = pixel?.matchedColor?.hex || pixel?.rgb
-              ? `rgb(${pixel.rgb.r}, ${pixel.rgb.g}, ${pixel.rgb.b})`
-              : '#FFFFFF';
-            const isHovered = hoveredCell?.row === rowIdx && hoveredCell?.col === colIdx;
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: `repeat(${cols}, ${effectiveCellSize}px)`,
+            gridTemplateRows: `repeat(${rows}, ${effectiveCellSize}px)`,
+            gap: 0
+          }}
+        >
+          {grid.map((row, rowIdx) =>
+            row.map((pixel, colIdx) => {
+              const color = pixel?.matchedColor?.hex || pixel?.rgb
+                ? `rgb(${pixel.rgb.r}, ${pixel.rgb.g}, ${pixel.rgb.b})`
+                : '#FFFFFF';
+              const isHovered = hoveredCell?.row === rowIdx && hoveredCell?.col === colIdx;
 
-            return (
-              <div
-                key={`${rowIdx}-${colIdx}`}
-                onClick={() => handleClick(rowIdx, colIdx)}
-                onMouseEnter={() => handleMouseEnter(rowIdx, colIdx)}
-                onMouseLeave={handleMouseLeave}
-                style={{
-                  width: `${cellSize}px`,
-                  height: `${cellSize}px`,
-                  backgroundColor: color,
-                  border: showGrid ? '1px solid rgba(45, 52, 54, 0.05)' : 'none',
-                  cursor: 'pointer',
-                  position: 'relative',
-                  transition: 'transform 0.15s ease',
-                  transform: isHovered ? 'scale(1.1)' : 'scale(1)',
-                  zIndex: isHovered ? 10 : 1,
-                  boxSizing: 'border-box'
-                }}
-                title={pixel?.matchedColor ? `${pixel.matchedColor.code} - ${pixel.matchedColor.name}` : ''}
-              >
-                {showCoordinates && isHovered && (
-                  <span
-                    style={{
-                      position: 'absolute',
-                      top: '1px',
-                      left: '50%',
-                      transform: 'translateX(-50%)',
-                      fontSize: '8px',
-                      color: 'rgba(45, 52, 54, 0.7)',
-                      pointerEvents: 'none',
-                      whiteSpace: 'nowrap'
-                    }}
-                  >
-                    {rowIdx},{colIdx}
-                  </span>
-                )}
-                {showColorCodes && pixel?.matchedColor && cellSize >= 18 && (
-                  <>
-                    {/* 透明背景，文字根据亮度自动选择颜色 */}
+              return (
+                <div
+                  key={`${rowIdx}-${colIdx}`}
+                  onClick={() => handleClick(rowIdx, colIdx)}
+                  onMouseEnter={() => handleMouseEnter(rowIdx, colIdx)}
+                  onMouseLeave={handleMouseLeave}
+                  style={{
+                    width: `${effectiveCellSize}px`,
+                    height: `${effectiveCellSize}px`,
+                    backgroundColor: color,
+                    border: showGrid ? `${Math.max(1 / zoom, 0.5)}px solid rgba(45, 52, 54, 0.05)` : 'none',
+                    cursor: 'pointer',
+                    position: 'relative',
+                    transition: 'transform 0.15s ease',
+                    transform: isHovered ? 'scale(1.05)' : 'scale(1)',
+                    zIndex: isHovered ? 10 : 1,
+                    boxSizing: 'border-box'
+                  }}
+                  title={pixel?.matchedColor ? `${pixel.matchedColor.code} - ${pixel.matchedColor.name}` : ''}
+                >
+                  {showCoordinates && isHovered && (
                     <span
                       style={{
                         position: 'absolute',
-                        bottom: '1px',
+                        top: '1px',
                         left: '50%',
                         transform: 'translateX(-50%)',
-                        fontSize: getCodeFontSize(brand),
-                        color: getTextColor(getBrightness(pixel.matchedColor.hex)),
+                        fontSize: `${Math.max(8 / zoom, 6)}px`,
+                        color: 'rgba(45, 52, 54, 0.7)',
                         pointerEvents: 'none',
-                        whiteSpace: 'nowrap',
-                        textShadow: '0 0 2px rgba(255,255,255,0.5)'
+                        whiteSpace: 'nowrap'
                       }}
                     >
-                      {formatColorCode(pixel.matchedColor.code, brand)}
+                      {rowIdx},{colIdx}
                     </span>
-                  </>
-                )}
-              </div>
-            );
-          })
-        )}
+                  )}
+                  {showColorCodes && pixel?.matchedColor && effectiveCellSize >= 18 && (
+                    <>
+                      {/* 透明背景，文字根据亮度自动选择颜色 */}
+                      <span
+                        style={{
+                          position: 'absolute',
+                          bottom: '1px',
+                          left: '50%',
+                          transform: 'translateX(-50%)',
+                          fontSize: zoom > 1 ? `${parseFloat(getCodeFontSize(brand)) * zoom}px` : getCodeFontSize(brand),
+                          color: getTextColor(getBrightness(pixel.matchedColor.hex)),
+                          pointerEvents: 'none',
+                          whiteSpace: 'nowrap',
+                          textShadow: '0 0 2px rgba(255,255,255,0.5)'
+                        }}
+                      >
+                        {formatColorCode(pixel.matchedColor.code, brand)}
+                      </span>
+                    </>
+                  )}
+                </div>
+              );
+            })
+          )}
+        </div>
       </div>
     </div>
   );

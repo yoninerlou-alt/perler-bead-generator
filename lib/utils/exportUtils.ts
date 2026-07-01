@@ -162,10 +162,17 @@ export function generateCanvasExport(
           ctx.strokeRect(x, y, cellSize, cellSize);
         }
 
-        // 绘制坐标
+        // 绘制坐标（透明背景，根据亮度自动选择黑色或白色）
         if (settings.showCoordinates) {
-          ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
           ctx.font = `${8 * EXPORT_SCALE}px sans-serif`;
+          // 根据色块亮度选择文字颜色
+          const colorHex = pixel?.matchedColor?.hex || '#FFFFFF';
+          const brightness = getBrightness(colorHex);
+          ctx.fillStyle = getTextColor(brightness);
+          // 添加文字描边增强对比度（透明）
+          ctx.strokeStyle = brightness > 128 ? 'rgba(0, 0, 0, 0.4)' : 'rgba(255, 255, 255, 0.4)';
+          ctx.lineWidth = 0.5 * EXPORT_SCALE;
+          ctx.strokeText(`${col},${row}`, x + 3 * EXPORT_SCALE, y + 10 * EXPORT_SCALE);
           ctx.fillText(`${col},${row}`, x + 3 * EXPORT_SCALE, y + 10 * EXPORT_SCALE);
         }
 

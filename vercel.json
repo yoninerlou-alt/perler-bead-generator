@@ -3,12 +3,7 @@
   "outputDirectory": ".next",
   "framework": "nextjs",
   "installCommand": "npm ci",
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": {
-      "description": "Production site URL",
-      "value": "https://perler-bead-generator.vercel.app"
-    }
-  },
+ 
   "headers": [
     {
       "source": "/(.*)",

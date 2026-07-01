@@ -141,6 +141,7 @@ export function useEditorState() {
 
     // 网格操作
     initializeGrid,
+    updateGrid,
     handlePaint,
     handleErase,
     handleFill,

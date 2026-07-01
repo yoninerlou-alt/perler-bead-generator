@@ -46,6 +46,7 @@ export default function Home() {
     canUndo,
     canRedo,
     initializeGrid,
+    updateGrid,
     handlePaint,
     handleErase,
     handleFill,
@@ -115,19 +116,25 @@ export default function Home() {
 
   // 图片上传完成
   const handleGridGenerated = useCallback((newGrid: import('@/types/color').MappedPixel[][]) => {
+    if (!newGrid || newGrid.length === 0) return;
+
     const rows = newGrid.length;
     const cols = newGrid[0]?.length || 0;
+
+    // 初始化网格状态（设置行/列）
     initializeGrid(rows, cols);
 
-    // 更新网格
-    for (let row = 0; row < rows; row++) {
-      for (let col = 0; col < cols; col++) {
-        if (newGrid[row]?.[col]) {
-          // 这里需要实际更新网格的逻辑
-        }
-      }
-    }
-  }, [initializeGrid]);
+    // 深拷贝并设置实际像素数据
+    const gridCopy = newGrid.map(row =>
+      row.map(pixel => ({
+        ...pixel,
+        lab: pixel.lab || { l: 0, a: 0, b: 0 }
+      }))
+    );
+
+    // 更新编辑器状态
+    updateGrid(gridCopy, '图片上传');
+  }, [initializeGrid, updateGrid]);
 
   // 导出PNG
   const handleExportPNG = useCallback(async () => {

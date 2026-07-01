@@ -3,8 +3,8 @@
  * 显示像素化后的网格，支持点击编辑
  */
 
-import { useRef, useState, useEffect, useCallback } from 'react';
-import type { MappedPixel } from '@/types/color';
+import { useRef, useState, useCallback } from 'react';
+import type { MappedPixel, BrandKey } from '@/types/color';
 
 interface PixelGridProps {
   grid: MappedPixel[][];
@@ -12,6 +12,7 @@ interface PixelGridProps {
   showGrid?: boolean;
   showCoordinates?: boolean;
   showColorCodes?: boolean;
+  brand?: BrandKey;
   onPixelClick?: (row: number, col: number) => void;
   onPixelHover?: (row: number, col: number) => void;
 }
@@ -22,11 +23,41 @@ export function PixelGrid({
   showGrid = true,
   showCoordinates = false,
   showColorCodes = false,
+  brand = 'perler',
   onPixelClick,
   onPixelHover
 }: PixelGridProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [hoveredCell, setHoveredCell] = useState<{ row: number; col: number } | null>(null);
+
+  // 格式化色号显示
+  const formatColorCode = useCallback((code: string, brandKey: BrandKey): string => {
+    if (!code) return '';
+    switch (brandKey) {
+      case 'hama':
+        // 只显示数字，去掉H前缀
+        return code.replace(/^[HS]/, '');
+      case 'artkal':
+        // 只显示数字，去掉S前缀
+        return code.replace(/^[HS]/, '');
+      case 'perler':
+      default:
+        return code;
+    }
+  }, []);
+
+  // 根据品牌获取字体大小
+  const getCodeFontSize = useCallback((brandKey: BrandKey): string => {
+    switch (brandKey) {
+      case 'perler':
+        return '5px'; // perler色号更长，字体更小
+      case 'hama':
+      case 'artkal':
+        return '7px'; // 只显示数字，字体稍大
+      default:
+        return '7px';
+    }
+  }, []);
 
   if (!grid || grid.length === 0) {
     return null;
@@ -121,14 +152,14 @@ export function PixelGrid({
                       bottom: '1px',
                       left: '50%',
                       transform: 'translateX(-50%)',
-                      fontSize: '7px',
+                      fontSize: getCodeFontSize(brand),
                       color: 'white',
                       textShadow: '0 1px 2px rgba(0,0,0,0.5)',
                       pointerEvents: 'none',
                       whiteSpace: 'nowrap'
                     }}
                   >
-                    {pixel.matchedColor.code}
+                    {formatColorCode(pixel.matchedColor.code, brand)}
                   </span>
                 )}
               </div>

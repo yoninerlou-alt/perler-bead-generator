@@ -53,7 +53,9 @@ export default function Home() {
     handleUndo,
     handleRedo,
     handleClear,
-    cloneCurrentGrid
+    cloneCurrentGrid,
+    setCurrentTool,
+    setSelectedColor
   } = useEditorState();
 
   // 导出设置
@@ -76,14 +78,13 @@ export default function Home() {
 
   // 颜色选择
   const handleColorSelect = useCallback((color: BeadColor) => {
-    // 实际更新选择状态的逻辑
-    console.log('Selected color:', color);
-  }, []);
+    setSelectedColor(color);
+  }, [setSelectedColor]);
 
   // 工具切换
   const handleToolChange = useCallback((tool: 'brush' | 'eraser' | 'fill' | 'picker') => {
-    console.log('Tool changed to:', tool);
-  }, []);
+    setCurrentTool(tool);
+  }, [setCurrentTool]);
 
   // 网格点击
   const handlePixelClick = useCallback((row: number, col: number) => {
@@ -139,13 +140,13 @@ export default function Home() {
   // 导出PNG
   const handleExportPNG = useCallback(async () => {
     try {
-      const blob = await generateCanvasExport(grid, exportSettings, 20);
+      const blob = await generateCanvasExport(grid, exportSettings, currentBrand, 20);
       downloadPNG(blob, 'perler-pattern.png');
     } catch (error) {
       console.error('导出失败:', error);
       alert('导出失败，请重试');
     }
-  }, [grid, exportSettings]);
+  }, [grid, exportSettings, currentBrand]);
 
   // 生成采购清单
   const handleGenerateShoppingList = useCallback(() => {
@@ -246,6 +247,7 @@ export default function Home() {
                 showGrid={exportSettings.showGrid}
                 showCoordinates={exportSettings.showCoordinates}
                 showColorCodes={exportSettings.showColorCodes}
+                brand={currentBrand}
                 onPixelClick={handlePixelClick}
                 onPixelHover={handlePixelHover}
               />

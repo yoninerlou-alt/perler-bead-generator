@@ -16,13 +16,16 @@ const EXPORT_SCALE = 3;
 function formatColorCode(code: string, brandKey: BrandKey): string {
   if (!code) return '';
   switch (brandKey) {
+    case 'perler':
+      // 去掉前缀，只显示尾数（如 "80-15179" → "15179"）
+      const parts = code.split('-');
+      return parts[parts.length - 1] || code;
     case 'hama':
       // 只显示数字，去掉H前缀
       return code.replace(/^[HS]/, '');
     case 'artkal':
       // 只显示数字，去掉S前缀
       return code.replace(/^[HS]/, '');
-    case 'perler':
     default:
       return code;
   }
@@ -114,17 +117,18 @@ export function generateCanvasExport(
     const padding = 15 * EXPORT_SCALE;
     const gridSize = settings.showGrid ? 1 * EXPORT_SCALE : 0;
 
-    // 计算调色板尺寸（紧凑布局）
-    const palettePadding = 10 * EXPORT_SCALE;
-    const colorBoxSize = 18 * EXPORT_SCALE;
-    const textGap = 5 * EXPORT_SCALE;
-    const rowGap = 8 * EXPORT_SCALE;
-    const itemsPerRow = Math.floor((cols * cellSize) / (colorBoxSize + textGap + 35 * EXPORT_SCALE));
+    // 计算调色板尺寸（增大色块）
+    const palettePadding = 15 * EXPORT_SCALE;
+    const colorBoxSize = 30 * EXPORT_SCALE; // 增大色块
+    const textGap = 8 * EXPORT_SCALE;
+    const rowGap = 15 * EXPORT_SCALE;
+    // 根据画布宽度计算每行显示的色块数量
+    const gridWidth = cols * cellSize;
+    const itemsPerRow = Math.floor((gridWidth) / (colorBoxSize + textGap + 50 * EXPORT_SCALE));
     const paletteRows = Math.ceil(uniqueColors.length / itemsPerRow);
-    const paletteHeight = palettePadding + 20 * EXPORT_SCALE + paletteRows * (colorBoxSize + rowGap);
+    const paletteHeight = palettePadding + 25 * EXPORT_SCALE + paletteRows * (colorBoxSize + rowGap);
 
     // 计算画布尺寸（紧凑布局，减少底部空白）
-    const gridWidth = cols * cellSize;
     const gridHeight = rows * cellSize;
     const canvasWidth = gridWidth + padding * 2;
     const canvasHeight = gridHeight + padding * 2 + paletteHeight;
@@ -165,7 +169,7 @@ export function generateCanvasExport(
           ctx.fillText(`${col},${row}`, x + 3 * EXPORT_SCALE, y + 10 * EXPORT_SCALE);
         }
 
-        // 绘制色号（简化显示）
+        // 绘制色号（透明背景，自动对比度）
         if (settings.showColorCodes && pixel?.matchedColor && cellSize >= 15 * EXPORT_SCALE) {
           const codeText = formatColorCode(pixel.matchedColor.code, brandKey);
           const fontSize = getCodeFontSize(brandKey);
@@ -174,19 +178,13 @@ export function generateCanvasExport(
           const textX = x + (cellSize - textWidth) / 2;
           const textY = y + cellSize - 4 * EXPORT_SCALE;
 
-          // 半透明白色背景
-          ctx.fillStyle = 'rgba(255, 255, 255, 0.75)';
-          const bgPadding = 2 * EXPORT_SCALE;
-          ctx.fillRect(
-            textX - bgPadding,
-            textY - fontSize - bgPadding,
-            textWidth + bgPadding * 2,
-            fontSize + bgPadding * 2
-          );
-
-          // 文字颜色根据亮度自动选择
+          // 文字颜色根据亮度自动选择（无背景，直接绘制在像素上）
           const brightness = getBrightness(pixel.matchedColor.hex);
           ctx.fillStyle = getTextColor(brightness);
+          // 添加文字描边增强对比度
+          ctx.strokeStyle = brightness > 128 ? 'rgba(0, 0, 0, 0.3)' : 'rgba(255, 255, 255, 0.3)';
+          ctx.lineWidth = 1 * EXPORT_SCALE;
+          ctx.strokeText(codeText, textX, textY);
           ctx.fillText(codeText, textX, textY);
         }
       }
@@ -199,51 +197,54 @@ export function generateCanvasExport(
 
     // 绘制调色板分隔线
     ctx.beginPath();
-    ctx.moveTo(paletteStartX, paletteY - 8 * EXPORT_SCALE);
-    ctx.lineTo(paletteEndX, paletteY - 8 * EXPORT_SCALE);
-    ctx.strokeStyle = 'rgba(0, 0, 0, 0.25)';
-    ctx.lineWidth = 1 * EXPORT_SCALE;
+    ctx.moveTo(paletteStartX, paletteY - 10 * EXPORT_SCALE);
+    ctx.lineTo(paletteEndX, paletteY - 10 * EXPORT_SCALE);
+    ctx.strokeStyle = 'rgba(0, 0, 0, 0.3)';
+    ctx.lineWidth = 2 * EXPORT_SCALE;
     ctx.stroke();
 
-    // 绘制调色板标题
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
-    ctx.font = `bold ${12 * EXPORT_SCALE}px sans-serif`;
-    ctx.fillText(`色号调色板 (${uniqueColors.length}种)`, paletteStartX, paletteY);
-
-    // 绘制色块（紧凑布局，显示数量）
-    const codeFontSize = 9 * EXPORT_SCALE;
-    const countFontSize = 8 * EXPORT_SCALE;
-    ctx.font = `${codeFontSize}px sans-serif`;
+    // 绘制色块（增大面积，显示色号和数量）
+    const codeFontSize = 11 * EXPORT_SCALE;
+    const countFontSize = 10 * EXPORT_SCALE;
 
     uniqueColors.forEach((color, index) => {
       const colIndex = index % itemsPerRow;
       const rowIndex = Math.floor(index / itemsPerRow);
-      const boxX = paletteStartX + colIndex * (colorBoxSize + textGap + 35 * EXPORT_SCALE);
-      const boxY = paletteY + 15 * EXPORT_SCALE + rowIndex * (colorBoxSize + rowGap);
+      const boxX = paletteStartX + colIndex * (colorBoxSize + textGap + 40 * EXPORT_SCALE);
+      const boxY = paletteY + 18 * EXPORT_SCALE + rowIndex * (colorBoxSize + rowGap);
 
-      // 绘制色块边框
+      // 绘制色块背景（阴影效果）
       ctx.fillStyle = 'rgba(0, 0, 0, 0.08)';
-      ctx.fillRect(boxX - 1 * EXPORT_SCALE, boxY - 1 * EXPORT_SCALE, colorBoxSize + 2 * EXPORT_SCALE, colorBoxSize + 2 * EXPORT_SCALE);
+      ctx.fillRect(boxX - 2 * EXPORT_SCALE, boxY - 2 * EXPORT_SCALE, colorBoxSize + 4 * EXPORT_SCALE, colorBoxSize + 4 * EXPORT_SCALE);
 
       // 绘制色块
       ctx.fillStyle = color.hex;
       ctx.fillRect(boxX, boxY, colorBoxSize, colorBoxSize);
 
       // 绘制色块边框
-      ctx.strokeStyle = 'rgba(0, 0, 0, 0.25)';
-      ctx.lineWidth = 0.5 * EXPORT_SCALE;
+      ctx.strokeStyle = 'rgba(0, 0, 0, 0.3)';
+      ctx.lineWidth = 1 * EXPORT_SCALE;
       ctx.strokeRect(boxX, boxY, colorBoxSize, colorBoxSize);
 
-      // 绘制色号
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
-      ctx.font = `${codeFontSize}px sans-serif`;
+      // 在色块内绘制色号（居中，自动对比度）
       const displayCode = formatColorCode(color.code, brandKey);
-      ctx.fillText(displayCode, boxX + colorBoxSize + textGap, boxY + colorBoxSize / 2 + 3 * EXPORT_SCALE);
+      const brightness = getBrightness(color.hex);
+      ctx.fillStyle = getTextColor(brightness);
+      ctx.font = `bold ${codeFontSize}px sans-serif`;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
 
-      // 绘制数量
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+      // 色号在上半部分
+      ctx.fillText(displayCode, boxX + colorBoxSize / 2, boxY + colorBoxSize / 2 - 5 * EXPORT_SCALE);
+
+      // 数量在下半部分
       ctx.font = `${countFontSize}px sans-serif`;
-      ctx.fillText(`×${color.count}`, boxX + colorBoxSize + textGap, boxY + colorBoxSize / 2 + 14 * EXPORT_SCALE);
+      ctx.fillStyle = getTextColor(brightness);
+      ctx.fillText(`×${color.count}`, boxX + colorBoxSize / 2, boxY + colorBoxSize / 2 + 10 * EXPORT_SCALE);
+
+      // 重置文本对齐
+      ctx.textAlign = 'left';
+      ctx.textBaseline = 'alphabetic';
     });
 
     // 转换为Blob

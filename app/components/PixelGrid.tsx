@@ -47,13 +47,16 @@ export function PixelGrid({
   const formatColorCode = useCallback((code: string, brandKey: BrandKey): string => {
     if (!code) return '';
     switch (brandKey) {
+      case 'perler':
+        // 去掉前缀，只显示尾数（如 "80-15179" → "15179"）
+        const parts = code.split('-');
+        return parts[parts.length - 1] || code;
       case 'hama':
         // 只显示数字，去掉H前缀
         return code.replace(/^[HS]/, '');
       case 'artkal':
         // 只显示数字，去掉S前缀
         return code.replace(/^[HS]/, '');
-      case 'perler':
       default:
         return code;
     }
@@ -160,7 +163,7 @@ export function PixelGrid({
                 )}
                 {showColorCodes && pixel?.matchedColor && cellSize >= 18 && (
                   <>
-                    {/* 背景框 */}
+                    {/* 透明背景，文字根据亮度自动选择颜色 */}
                     <span
                       style={{
                         position: 'absolute',
@@ -169,11 +172,9 @@ export function PixelGrid({
                         transform: 'translateX(-50%)',
                         fontSize: getCodeFontSize(brand),
                         color: getTextColor(getBrightness(pixel.matchedColor.hex)),
-                        backgroundColor: 'rgba(255, 255, 255, 0.7)',
-                        padding: '0 2px',
-                        borderRadius: '2px',
                         pointerEvents: 'none',
-                        whiteSpace: 'nowrap'
+                        whiteSpace: 'nowrap',
+                        textShadow: '0 0 2px rgba(255,255,255,0.5)'
                       }}
                     >
                       {formatColorCode(pixel.matchedColor.code, brand)}

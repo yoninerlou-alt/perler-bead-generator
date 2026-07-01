@@ -194,6 +194,7 @@ export function generateCanvasExport(
     const paletteY = gridHeight + padding * 2 + palettePadding;
     const paletteStartX = padding;
     const paletteEndX = canvasWidth - padding;
+    const totalBeads = uniqueColors.reduce((sum, color) => sum + color.count, 0);
 
     // 绘制调色板分隔线
     ctx.beginPath();
@@ -202,6 +203,24 @@ export function generateCanvasExport(
     ctx.strokeStyle = 'rgba(0, 0, 0, 0.3)';
     ctx.lineWidth = 2 * EXPORT_SCALE;
     ctx.stroke();
+
+    // 绘制调色板区域标注
+    const paletteTopY = paletteY + 5 * EXPORT_SCALE;
+
+    // 左上角：色号调色板：XX种
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
+    ctx.font = `bold ${14 * EXPORT_SCALE}px sans-serif`;
+    ctx.textAlign = 'left';
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillText(`色号调色板：${uniqueColors.length}种`, paletteStartX, paletteTopY);
+
+    // 右上角：共XXX颗
+    ctx.textAlign = 'right';
+    ctx.fillText(`共${totalBeads}颗`, paletteEndX, paletteTopY);
+
+    // 重置文本对齐
+    ctx.textAlign = 'left';
+    ctx.textBaseline = 'alphabetic';
 
     // 绘制色块（增大面积，显示色号和数量）
     const codeFontSize = 11 * EXPORT_SCALE;
@@ -263,7 +282,8 @@ export function generateCanvasExport(
  */
 export function generateShoppingList(
   grid: MappedPixel[][],
-  brandName: string
+  brandName: string,
+  brandKey: BrandKey = 'perler'
 ): ShoppingList {
   const stats = getGridStats(grid);
   const colorQuantities = new Map<string, number>();
@@ -280,15 +300,13 @@ export function generateShoppingList(
 
   // 生成清单项
   const items = Array.from(colorQuantities.entries()).map(([colorId, quantity]) => {
-    const parts = colorId.split('-');
-    const code = parts[parts.length - 1];
-
     // 查找颜色信息
     for (const row of grid) {
       for (const pixel of row) {
         if (pixel.color && pixel.color.id === colorId) {
+          // CSV导出使用完整色号，不在图片上显示的格式化处理
           return {
-            colorCode: code,
+            colorCode: pixel.color.code, // 使用完整的原始色号（如 80-15200）
             colorName: pixel.color.name,
             colorHex: pixel.color.hex,
             quantity,
@@ -301,7 +319,7 @@ export function generateShoppingList(
 
     // 默认值（理论上不会到达这里）
     return {
-      colorCode: code,
+      colorCode: 'Unknown',
       colorName: 'Unknown',
       colorHex: '#000000',
       quantity,

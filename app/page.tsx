@@ -163,7 +163,7 @@ export default function Home() {
   const handleGenerateShoppingList = useCallback(() => {
     if (!colorSystem) return;
 
-    const list = generateShoppingList(grid, colorSystem[currentBrand].brandName);
+    const list = generateShoppingList(grid, colorSystem[currentBrand].brandName, currentBrand);
     setShoppingList(list);
     setShowShoppingList(true);
   }, [grid, colorSystem, currentBrand]);

@@ -271,14 +271,14 @@ export default function Home() {
               <PixelGrid
                 grid={grid}
                 cellSize={20}
-                zoom={showMagnifier ? magnifierZoom : 1}
+                zoom={magnifierZoom}
                 showGrid={exportSettings.showGrid}
                 showCoordinates={exportSettings.showCoordinates}
                 showColorCodes={exportSettings.showColorCodes}
                 brand={currentBrand}
                 onPixelClick={handlePixelClick}
                 onPixelHover={handlePixelHover}
-                onZoomChange={showMagnifier ? handleZoomChange : undefined}
+                onZoomChange={handleZoomChange}
               />
             ) : (
               <div className="empty-grid">
@@ -533,6 +533,7 @@ export default function Home() {
           flex: 1;
           display: flex;
           flex-direction: column;
+          min-height: 600px;
         }
 
         .export-actions {

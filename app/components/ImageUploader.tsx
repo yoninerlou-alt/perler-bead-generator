@@ -2,7 +2,7 @@
  * 可爱图片上传组件
  */
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import type { BeadColor } from '@/types/color';
 import { createImageDataFromFile } from '@/lib/utils/pixelationUtils';
 import { matchColorsToPalette, pixelateImage } from '@/lib/utils/pixelationUtils';
@@ -23,6 +23,7 @@ export function ImageUploader({
   const [isUploading, setIsUploading] = useState(false);
   const [dragOver, setDragOver] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const handleFileSelect = useCallback(
     async (file: File) => {
@@ -58,6 +59,10 @@ export function ImageUploader({
         console.error('图片处理错误:', err);
       } finally {
         setIsUploading(false);
+        // 重置 input 的 value，允许重复上传同一文件
+        if (inputRef.current) {
+          inputRef.current.value = '';
+        }
       }
     },
     [onGridGenerated, selectedPalette, pixelSize]
@@ -123,6 +128,7 @@ export function ImageUploader({
       onDragLeave={handleDragLeave}
     >
       <input
+        ref={inputRef}
         type="file"
         accept="image/jpeg,image/png,image/gif"
         onChange={(e) => {

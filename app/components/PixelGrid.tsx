@@ -101,6 +101,18 @@ export function PixelGrid({
     setHoveredCell(null);
   };
 
+  // 鼠标滚轮缩放
+  const handleWheel = useCallback((e: React.WheelEvent) => {
+    if (!onZoomChange) return;
+
+    e.preventDefault();
+
+    const delta = e.deltaY > 0 ? -0.1 : 0.1; // 向下滚动缩小，向上滚动放大
+    const newZoom = Math.max(0.5, Math.min(5, zoom + delta));
+
+    onZoomChange(newZoom);
+  }, [onZoomChange, zoom]);
+
   const handleZoomIn = () => {
     const newZoom = Math.min(zoom + 0.5, 5);
     onZoomChange?.(newZoom);
@@ -191,6 +203,7 @@ export function PixelGrid({
 
       {/* 网格 */}
       <div
+        onWheel={handleWheel}
         style={{
           display: 'inline-block',
           background: 'var(--color-background)',
@@ -198,7 +211,7 @@ export function PixelGrid({
           overflow: 'auto',
           padding: 'var(--space-md)',
           boxShadow: 'var(--shadow)',
-          maxHeight: zoom > 1 ? '600px' : '500px',
+          maxHeight: zoom > 1 ? '700px' : '600px',
           maxWidth: '100%'
         }}
       >

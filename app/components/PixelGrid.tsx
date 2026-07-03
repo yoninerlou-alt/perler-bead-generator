@@ -206,11 +206,7 @@ export function PixelGrid({
         onWheel={handleWheel}
         style={{
           display: 'inline-block',
-          background: 'var(--color-background)',
-          borderRadius: 'var(--radius-lg)',
           overflow: 'auto',
-          padding: 'var(--space-md)',
-          boxShadow: 'var(--shadow)',
           maxHeight: zoom > 1 ? '700px' : '600px',
           maxWidth: '100%'
         }}

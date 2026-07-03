@@ -534,11 +534,11 @@ export default function Home() {
           display: flex;
           flex-direction: column;
           min-height: 600px;
-          background: transparent;
-          border: none;
-          border-radius: 0;
-          padding: 0;
-          box-shadow: none;
+          background: transparent !important;
+          border: none !important;
+          border-radius: 0 !important;
+          padding: 0 !important;
+          box-shadow: none !important;
         }
 
         .export-actions {

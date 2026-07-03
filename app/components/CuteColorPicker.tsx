@@ -3,6 +3,7 @@
  */
 
 import type { BeadColor } from '@/types/color';
+import { useMemo } from 'react';
 
 interface CuteColorPickerProps {
   colors: BeadColor[];
@@ -18,6 +19,20 @@ export function CuteColorPicker({
   title = '🎨 选择颜色'
 }: CuteColorPickerProps) {
   const categories = Array.from(new Set(colors.map(c => c.category)));
+
+  // 计算颜色的亮度（用于确定文字颜色）
+  const getBrightness = (hex: string): number => {
+    const r = parseInt(hex.slice(1, 3), 16);
+    const g = parseInt(hex.slice(3, 5), 16);
+    const b = parseInt(hex.slice(5, 7), 16);
+    return (r * 299 + g * 587 + b * 114) / 1000;
+  };
+
+  // 根据亮度选择文字颜色
+  const getTextColor = (hex: string): string => {
+    const brightness = getBrightness(hex);
+    return brightness > 230 ? 'rgba(0, 0, 0, 0.8)' : 'rgba(255, 255, 255, 0.95)';
+  };
 
   return (
     <div className="cute-color-picker">
@@ -49,7 +64,9 @@ export function CuteColorPicker({
                   title={color.name}
                   type="button"
                 >
-                  <span className="color-selector-code">{color.code}</span>
+                  <span className="color-selector-code" style={{ color: getTextColor(color.hex) }}>
+                    {color.code}
+                  </span>
                   {selectedColor?.id === color.id && (
                     <span className="selected-emoji">✨</span>
                   )}

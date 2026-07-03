@@ -49,7 +49,7 @@ export function CuteColorPicker({
                   title={color.name}
                   type="button"
                 >
-                  <span className="color-code">{color.code}</span>
+                  <span className="cobalt-label">{color.code}</span>
                   {selectedColor?.id === color.id && (
                     <span className="selected-emoji">✨</span>
                   )}

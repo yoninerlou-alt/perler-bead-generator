@@ -203,11 +203,10 @@ export function PixelGrid({
 
       {/* 网格 */}
       <div
-        onWheel={handleWheel}
         style={{
           display: 'inline-block',
           overflow: 'auto',
-          maxHeight: zoom > 1 ? '700px' : '600px',
+          maxHeight: zoom > 1 ? '1400px' : '1200px',
           maxWidth: '100%'
         }}
       >

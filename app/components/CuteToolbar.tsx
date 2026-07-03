@@ -12,8 +12,6 @@ interface CuteToolbarProps {
   onUndo: () => void;
   onRedo: () => void;
   onClear: () => void;
-  showMagnifier?: boolean;
-  onToggleMagnifier?: () => void;
 }
 
 interface ToolButton {
@@ -97,18 +95,6 @@ export function CuteToolbar({
             <span className="tool-icon">🗑️</span>
             <span className="tool-label">清空</span>
           </button>
-
-          {onToggleMagnifier && (
-            <button
-              className={`cute-tool-btn ${showMagnifier ? 'active' : ''}`}
-              onClick={onToggleMagnifier}
-              type="button"
-              title="放大镜"
-            >
-              <span className="tool-icon">🔍</span>
-              <span className="tool-label">放大</span>
-            </button>
-          )}
         </div>
       </div>
     </div>

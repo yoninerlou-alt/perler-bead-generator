@@ -160,7 +160,10 @@ export default function Home() {
 
     // 更新编辑器状态
     updateGrid(gridCopy, '图片上传');
-  }, [initializeGrid, updateGrid]);
+
+    // 设置默认缩放为 1x
+    setMagnifierZoom(1);
+  }, [initializeGrid, updateGrid, setMagnifierZoom]);
 
   // 导出PNG
   const handleExportPNG = useCallback(async () => {
@@ -322,8 +325,6 @@ export default function Home() {
               onUndo={handleUndo}
               onRedo={handleRedo}
               onClear={handleClear}
-              showMagnifier={showMagnifier}
-              onToggleMagnifier={handleToggleMagnifier}
             />
 
             {/* 导出设置 */}
@@ -419,8 +420,6 @@ export default function Home() {
           onUndo={handleUndo}
           onRedo={handleRedo}
           onClear={handleClear}
-          showMagnifier={showMagnifier}
-          onToggleMagnifier={handleToggleMagnifier}
         />
       )}
 

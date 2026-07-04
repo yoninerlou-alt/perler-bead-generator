@@ -160,7 +160,8 @@ export function matchColorsToPalette(
     for (let col = 0; col < grid[row].length; col++) {
       const pixel = grid[row][col];
 
-      if (!pixel.rgb || (pixel.rgb.r === 0 && pixel.rgb.g === 0 && pixel.rgb.b === 0)) {
+      // 移除对纯黑色的限制，允许黑色像素也进行颜色匹配
+      if (!pixel.rgb) {
         continue;
       }
 

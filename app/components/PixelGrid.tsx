@@ -44,24 +44,9 @@ export function PixelGrid({
     return (r * 299 + g * 587 + b * 114) / 1000;
   }, []);
 
-  // 根据亮度选择文字颜色
+  // 根据亮度选择文字颜色（去掉阴影）
   const getTextColor = useCallback((brightness: number): string => {
-    return brightness > 128 ? 'rgba(0, 0, 0, 0.9)' : 'rgba(255, 255, 255, 0.95)';
-  }, []);
-
-  // 根据亮度和缩放级别选择文字阴影
-  const getTextShadow = useCallback((brightness: number, zoomLevel: number): string => {
-    // 根据缩放级别调整阴影强度
-    const blur1 = Math.max(1, Math.round(2 * zoomLevel));
-    const blur2 = Math.max(2, Math.round(3 * zoomLevel));
-
-    if (brightness > 128) {
-      // 浅色背景：黑色文字，白色阴影（带轻微偏移增强对比）
-      return `0 1px ${blur1}px rgba(255, 255, 255, 0.9), 0 -1px ${blur2}px rgba(255, 255, 255, 0.7)`;
-    } else {
-      // 深色背景：白色文字，黑色阴影（带轻微偏移增强对比）
-      return `0 1px ${blur1}px rgba(0, 0, 0, 0.9), 0 -1px ${blur2}px rgba(0, 0, 0, 0.7)`;
-    }
+    return brightness > 128 ? 'rgba(0, 0, 0, 1)' : 'rgba(255, 255, 255, 1)';
   }, []);
 
   // 格式化色号显示
@@ -278,7 +263,7 @@ export function PixelGrid({
                   )}
                   {showColorCodes && pixel?.matchedColor && effectiveCellSize >= 18 && (
                     <>
-                      {/* 透明背景，文字根据亮度和缩放级别自动选择颜色和阴影 */}
+                      {/* 透明背景，文字根据亮度自动选择颜色，无阴影 */}
                       <span
                         style={{
                           position: 'absolute',
@@ -288,8 +273,7 @@ export function PixelGrid({
                           fontSize: zoom > 1 ? `${parseFloat(getCodeFontSize(brand)) * zoom}px` : getCodeFontSize(brand),
                           color: getTextColor(getBrightness(pixel.matchedColor.hex)),
                           pointerEvents: 'none',
-                          whiteSpace: 'nowrap',
-                          textShadow: getTextShadow(getBrightness(pixel.matchedColor.hex), zoom)
+                          whiteSpace: 'nowrap'
                         }}
                       >
                         {formatColorCode(pixel.matchedColor.code, brand)}

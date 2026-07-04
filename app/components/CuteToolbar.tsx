@@ -34,9 +34,7 @@ export function CuteToolbar({
   canRedo,
   onUndo,
   onRedo,
-  onClear,
-  showMagnifier = false,
-  onToggleMagnifier
+  onClear
 }: CuteToolbarProps) {
   return (
     <div className="cute-toolbar">

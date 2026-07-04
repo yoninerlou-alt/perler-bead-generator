@@ -46,7 +46,18 @@ export function PixelGrid({
 
   // 根据亮度选择文字颜色
   const getTextColor = useCallback((brightness: number): string => {
-    return brightness > 128 ? 'rgba(0, 0, 0, 0.8)' : 'rgba(255, 255, 255, 0.95)';
+    return brightness > 128 ? 'rgba(0, 0, 0, 0.9)' : 'rgba(255, 255, 255, 0.95)';
+  }, []);
+
+  // 根据亮度选择文字阴影（增强对比度）
+  const getTextShadow = useCallback((brightness: number): string => {
+    if (brightness > 128) {
+      // 浅色背景：黑色文字，白色阴影
+      return '0 0 2px rgba(255, 255, 255, 0.8), 0 0 4px rgba(255, 255, 255, 0.5)';
+    } else {
+      // 深色背景：白色文字，黑色阴影
+      return '0 0 2px rgba(0, 0, 0, 0.8), 0 0 4px rgba(0, 0, 0, 0.5)';
+    }
   }, []);
 
   // 格式化色号显示
@@ -263,7 +274,7 @@ export function PixelGrid({
                   )}
                   {showColorCodes && pixel?.matchedColor && effectiveCellSize >= 18 && (
                     <>
-                      {/* 透明背景，文字根据亮度自动选择颜色 */}
+                      {/* 透明背景，文字根据亮度自动选择颜色和阴影 */}
                       <span
                         style={{
                           position: 'absolute',
@@ -274,7 +285,7 @@ export function PixelGrid({
                           color: getTextColor(getBrightness(pixel.matchedColor.hex)),
                           pointerEvents: 'none',
                           whiteSpace: 'nowrap',
-                          textShadow: '0 0 2px rgba(255,255,255,0.5)'
+                          textShadow: getTextShadow(getBrightness(pixel.matchedColor.hex))
                         }}
                       >
                         {formatColorCode(pixel.matchedColor.code, brand)}
